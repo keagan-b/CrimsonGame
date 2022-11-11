@@ -16,6 +16,8 @@ public class PlayerController : NetworkBehaviour
 
     [SyncVar]
     public float health = 100f;
+    [SyncVar]
+    public bool isDead = false;
 
     void Start()
     {
@@ -28,6 +30,19 @@ public class PlayerController : NetworkBehaviour
     {
         if (!isLocalPlayer) { return; }
 
+        if (health <= 0 && !isDead)
+        {
+            isDead = true;
+
+            characterAnimator.SetBool("Death_b", true);
+            characterAnimator.SetInteger("DeathType_int", Random.Range(1, 3));
+            playerCam.enabled = false;
+            return;
+        }
+        else if (isDead && health >= 100)
+        {
+            characterAnimator.SetBool("Death_b", false);
+        }
 
         // movement handler
         float h = Input.GetAxisRaw("Horizontal");
@@ -56,10 +71,5 @@ public class PlayerController : NetworkBehaviour
             float angle = Mathf.Atan2(hit.point.x, hit.point.z) * Mathf.Rad2Deg;
             modelParent.transform.localRotation = Quaternion.Euler(0, angle, 0);
         }
-    }
-
-    private void OnCollisionStay(Collision collision)
-    {
-        
     }
 }

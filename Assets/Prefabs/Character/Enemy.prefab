@@ -9,10 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3816291381614988428}
-  - component: {fileID: 4332138967592532115}
   - component: {fileID: 3816291381614988431}
   - component: {fileID: 249677112618912579}
   - component: {fileID: 2066481168030421194}
+  - component: {fileID: 3955628609432226033}
+  - component: {fileID: 4332138967592532115}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -36,35 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4332138967592532115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3816291381614988429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6379b16da9270174cb26a37629165fe6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0.1
-  modelParent: {fileID: 3816291382124266875}
-  navAgent: {fileID: 3816291381614988431}
-  netAnimator: {fileID: 0}
-  zombieModels:
-  - {fileID: 196320, guid: 042872c1bba04d84eb9f9e686d669877, type: 3}
-  - {fileID: 199286, guid: 94a1f41d699408c4b89c5dd302ad12ea, type: 3}
-  - {fileID: 165266, guid: 1e2e55f2b72bd944baa992df728abe80, type: 3}
-  - {fileID: 144900, guid: aea60f95e48ea874da1cd93b8e9b4db5, type: 3}
-  - {fileID: 164274, guid: 4c55634be023e4d40ba3a85407347daf, type: 3}
-  - {fileID: 147980, guid: 33fe945564a51f64f8d6ea8f0c2e8be9, type: 3}
-  - {fileID: 160776, guid: 9172b776598ca90448277d43a7b00e08, type: 3}
-  - {fileID: 105456, guid: eff2b11c7f07f0647942c29a970c06a9, type: 3}
-  modelID: 0
-  health: 100
 --- !u!195 &3816291381614988431
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -84,7 +56,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: -0.5
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &249677112618912579
@@ -132,6 +104,50 @@ MonoBehaviour:
   showGizmos: 0
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+--- !u!136 &3955628609432226033
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816291381614988429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &4332138967592532115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816291381614988429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6379b16da9270174cb26a37629165fe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.1
+  modelParent: {fileID: 3816291382124266875}
+  navAgent: {fileID: 3816291381614988431}
+  zombieModels:
+  - {fileID: 196320, guid: 042872c1bba04d84eb9f9e686d669877, type: 3}
+  - {fileID: 199286, guid: 94a1f41d699408c4b89c5dd302ad12ea, type: 3}
+  - {fileID: 165266, guid: 1e2e55f2b72bd944baa992df728abe80, type: 3}
+  - {fileID: 144900, guid: aea60f95e48ea874da1cd93b8e9b4db5, type: 3}
+  - {fileID: 164274, guid: 4c55634be023e4d40ba3a85407347daf, type: 3}
+  - {fileID: 147980, guid: 33fe945564a51f64f8d6ea8f0c2e8be9, type: 3}
+  - {fileID: 160776, guid: 9172b776598ca90448277d43a7b00e08, type: 3}
+  - {fileID: 105456, guid: eff2b11c7f07f0647942c29a970c06a9, type: 3}
+  modelID: 0
+  damage: 10
+  health: 100
+  attackSpeed: 1
 --- !u!1 &3816291382124266875
 GameObject:
   m_ObjectHideFlags: 0

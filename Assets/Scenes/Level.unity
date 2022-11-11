@@ -250,15 +250,8 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   enemyPrefab: {fileID: 3816291381614988429, guid: 2dc0bf34d7675174ab23f86b84908964, type: 3}
-  zombieModels:
-  - {fileID: 196320, guid: 042872c1bba04d84eb9f9e686d669877, type: 3}
-  - {fileID: 126046, guid: 4502d6ca501d94b47aec5f55c8697011, type: 3}
-  - {fileID: 199286, guid: 94a1f41d699408c4b89c5dd302ad12ea, type: 3}
-  - {fileID: 119274, guid: 6c48ed3b2c64908448212ef062aace3e, type: 3}
-  - {fileID: 123560, guid: 87e8f7080f063734abc6a8369a1ff993, type: 3}
-  - {fileID: 165266, guid: 1e2e55f2b72bd944baa992df728abe80, type: 3}
-  - {fileID: 102404, guid: f47fae03f2aefa243a408ff3ac3fcdc3, type: 3}
-  - {fileID: 195656, guid: ce30757dc561ff843b915619973f7f78, type: 3}
+  round: 0
+  score: 0
 --- !u!114 &126024887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +299,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1993762206}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &448632448
 MonoBehaviour:
@@ -412,7 +405,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1993762206}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &816108654
 PrefabInstance:
@@ -726,6 +719,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1374291521295002825, guid: 2e088d72c50a0004ca656bd6b1493b3c, type: 3}
   m_PrefabInstance: {fileID: 1291072382}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1293805979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293805980}
+  - component: {fileID: 1293805982}
+  - component: {fileID: 1293805981}
+  m_Layer: 2
+  m_Name: LevelCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293805980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293805979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1993762206}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1293805981
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293805979}
+  m_Enabled: 0
+--- !u!20 &1293805982
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293805979}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1001 &1600404565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -993,7 +1070,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1993762206}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1703378665
 MeshCollider:
@@ -1113,7 +1190,7 @@ Transform:
   - {fileID: 1600404566}
   - {fileID: 51034353}
   m_Father: {fileID: 1993762206}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1788630375
 PrefabInstance:
@@ -1221,6 +1298,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1293805980}
   - {fileID: 1703378664}
   - {fileID: 1738786251}
   - {fileID: 705507995}
