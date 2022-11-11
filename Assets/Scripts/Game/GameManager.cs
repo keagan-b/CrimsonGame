@@ -7,6 +7,8 @@ public class GameManager : NetworkBehaviour
 {
     public GameObject enemyPrefab;
     public static GameObject[] players;
+    public static GameObject[] livingPlayers;
+
     public static List<GameObject> zombies = new List<GameObject>();
     public static Camera levelCamera;
 
@@ -23,10 +25,11 @@ public class GameManager : NetworkBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (!isServer) { return; }
         players = GameObject.FindGameObjectsWithTag("Player");
+        livingPlayers = GetLivingPlayers();
 
         bool allDead = true;
         foreach (GameObject player in players)
@@ -83,5 +86,19 @@ public class GameManager : NetworkBehaviour
         zombies.Add(zombie);
 
         NetworkServer.Spawn(zombie);
+    }
+
+    public GameObject[] GetLivingPlayers()
+    {
+        List<GameObject> livingPlayers = new List<GameObject>();
+        foreach (GameObject player in players)
+        {
+            if (!player.GetComponent<PlayerController>().isDead)
+            {
+                livingPlayers.Add(player);
+            }
+        }
+
+        return livingPlayers.ToArray();
     }
 }

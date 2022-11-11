@@ -19,6 +19,8 @@ public class PlayerController : NetworkBehaviour
     [SyncVar]
     public bool isDead = false;
 
+    private int spectatorCamera = 0;
+
     void Start()
     {
         if (!isLocalPlayer) { playerCam.enabled = false; playerCam.GetComponent<AudioListener>().enabled = false; }
@@ -30,7 +32,7 @@ public class PlayerController : NetworkBehaviour
     {
         if (!isLocalPlayer) { return; }
 
-        if (health <= 0 && !isDead)
+        if (health <= 0 && !isDead) // death
         {
             isDead = true;
 
@@ -39,9 +41,41 @@ public class PlayerController : NetworkBehaviour
             playerCam.enabled = false;
             return;
         }
-        else if (isDead && health >= 100)
+        else if (isDead && health >= 100) // revival
         {
+            isDead = false;
             characterAnimator.SetBool("Death_b", false);
+            characterAnimator.Play("Alive");
+            GameObject[] players = GameManager.players;
+            foreach (GameObject player in players)
+            {
+                PlayerController controller = player.GetComponent<PlayerController>();
+                controller.playerCam.enabled = false;
+            }
+        }
+        else if (isDead && health <= 0) // spectator system
+        {
+            GameObject[] players = GameManager.livingPlayers;
+            int prevCamera = spectatorCamera;
+
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                spectatorCamera--;
+                if (spectatorCamera < 0) { spectatorCamera = players.Length - 1; }
+            }
+            else if (Input.GetKeyDown(KeyCode.D))
+            {
+                spectatorCamera++;
+                if (spectatorCamera > players.Length - 1) { spectatorCamera = 0; }
+            }
+            else
+            {
+                return;
+            }
+
+            players[prevCamera].GetComponent<PlayerController>().playerCam.enabled = false;
+            players[spectatorCamera].GetComponent<PlayerController>().playerCam.enabled = true;
+
         }
 
         // movement handler

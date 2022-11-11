@@ -47,7 +47,7 @@ public class EnemyController : NetworkBehaviour
         // find nearest player
         float min = float.MaxValue;
         Vector3 closestPlayer = new Vector3();
-        foreach (GameObject player in GameManager.players)
+        foreach (GameObject player in GameManager.livingPlayers)
         {
             float distance = Vector3.Distance(gameObject.transform.position, player.transform.position);
             if (distance < min)
@@ -66,12 +66,11 @@ public class EnemyController : NetworkBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerStay(Collider collision)
     {
         if (!isServer) { return; }
         if (collision.gameObject.tag == "Player" && attackCooldown <= Time.time)
         {
-            Debug.Log("Attacking!");
             PlayerController controller = collision.gameObject.GetComponent<PlayerController>();
             controller.health -= damage;
             attackCooldown = Time.time + attackSpeed;
