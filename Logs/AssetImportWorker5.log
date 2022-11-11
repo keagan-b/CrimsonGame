@@ -1228,3 +1228,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38174.537318 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_AirportWorker.prefab
+  artifactKey: Guid(3c30f5af21f2ba74eafc170b2b3df88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_AirportWorker.prefab using Guid(3c30f5af21f2ba74eafc170b2b3df88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c099c54a7d2815f9a581569fcf89e4') in 0.203528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Bellhop.prefab
+  artifactKey: Guid(ea9791ddb8d44474bbcec609b9748edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Bellhop.prefab using Guid(ea9791ddb8d44474bbcec609b9748edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333d699afd4db952fd2f7d043e287318') in 0.055743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Grandma.prefab
+  artifactKey: Guid(6b616d5eee8e5bf4abc92b3d1fff00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Grandma.prefab using Guid(6b616d5eee8e5bf4abc92b3d1fff00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0895325cd3d936fa1f735580ec08bc') in 0.062039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Robber.prefab
+  artifactKey: Guid(d3c324f7d1cc64045ab231e0e0c0e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Robber.prefab using Guid(d3c324f7d1cc64045ab231e0e0c0e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519911a1082b0ae5cf9ea6992425d6dc') in 0.444013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Tourist.prefab
+  artifactKey: Guid(02fa487f63c3989429418e446c705207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Tourist.prefab using Guid(02fa487f63c3989429418e446c705207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6908013f2b476762d519bfa38c7cfe47') in 0.041693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Businessman.prefab
+  artifactKey: Guid(ffd8d0a68e87f5640819a89549abfb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Businessman.prefab using Guid(ffd8d0a68e87f5640819a89549abfb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46622369a07086f35ae27b64edf77e7') in 0.038597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Trucker.prefab
+  artifactKey: Guid(433545daff80fe347a73cc1fd76ebeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Trucker.prefab using Guid(433545daff80fe347a73cc1fd76ebeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228b00d59a2a93a20ba6eaafb3f8c522') in 0.042986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Cheerleader.prefab
+  artifactKey: Guid(4502d6ca501d94b47aec5f55c8697011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Cheerleader.prefab using Guid(4502d6ca501d94b47aec5f55c8697011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a057c785042242134a84d529e5bd5e68') in 0.047275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Farmer.prefab
+  artifactKey: Guid(4b567cfc65370f04fbceead813c886d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Farmer.prefab using Guid(4b567cfc65370f04fbceead813c886d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7f5587e2df4aa11a39fb58fb9fdc52') in 0.037463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Streetman.prefab
+  artifactKey: Guid(9172b776598ca90448277d43a7b00e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Streetman.prefab using Guid(9172b776598ca90448277d43a7b00e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c501615d82c3b7adfe4e5cfcf0330a') in 0.049719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Industrial.prefab
+  artifactKey: Guid(eff2b11c7f07f0647942c29a970c06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Industrial.prefab using Guid(eff2b11c7f07f0647942c29a970c06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e44b469034afee1f2ed5d17f48e4516') in 0.041731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Clown.prefab
+  artifactKey: Guid(f388b7171e9ede04f99aec418f5411d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Clown.prefab using Guid(f388b7171e9ede04f99aec418f5411d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7ba1b6857c52058d659ea73968ba58') in 0.037872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Shopkeeper.prefab
+  artifactKey: Guid(7822b01f89476d846847d47f7c45f689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Shopkeeper.prefab using Guid(7822b01f89476d846847d47f7c45f689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954b647f8263b1a8327b4f04934756ec') in 0.039319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Santa.prefab
+  artifactKey: Guid(86fad03278650744eaecbe900ae34d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/Characters/Zombies/SA_Zombie_Santa.prefab using Guid(86fad03278650744eaecbe900ae34d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646c9187f7617bdd809a1bc36ad45d8f') in 0.042654 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

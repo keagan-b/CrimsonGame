@@ -14,9 +14,13 @@ public class PlayerController : NetworkBehaviour
 
     private Animator characterAnimator;
 
+    [SyncVar]
+    public float health = 100f;
+
     void Start()
     {
         if (!isLocalPlayer) { playerCam.enabled = false; playerCam.GetComponent<AudioListener>().enabled = false; }
+
         characterAnimator = characterModel.GetComponent<Animator>();
     }
 
@@ -30,11 +34,11 @@ public class PlayerController : NetworkBehaviour
         float v = Input.GetAxisRaw("Vertical");
 
         // animation controls
-        if (h != 0 || v != 0)
+        if ((h != 0 || v != 0) && characterAnimator != null)
         {
             characterAnimator.SetFloat("Speed_f", 0.26f);
         }
-        else
+        else if (characterAnimator != null)
         {
             characterAnimator.SetFloat("Speed_f", 0f);
         }
@@ -52,5 +56,10 @@ public class PlayerController : NetworkBehaviour
             float angle = Mathf.Atan2(hit.point.x, hit.point.z) * Mathf.Rad2Deg;
             modelParent.transform.localRotation = Quaternion.Euler(0, angle, 0);
         }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        
     }
 }
