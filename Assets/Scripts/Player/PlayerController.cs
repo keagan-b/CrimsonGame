@@ -10,7 +10,7 @@ public class PlayerController : NetworkBehaviour
     public GameObject modelParent;
     public GameObject characterModel;
 
-    public float speed = 10f;
+    public float speed = 1f;
 
     private Animator characterAnimator;
 

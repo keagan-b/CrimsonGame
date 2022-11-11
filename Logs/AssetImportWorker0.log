@@ -256,3 +256,457 @@ Received Import Request.
   path: Assets/Models
   artifactKey: Guid(d82a84e60cffab94abf9d032a28b6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Models using Guid(d82a84e60cffab94abf9d032a28b6cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4265115f61d66cb16ca4b136f01b1e5') in 0.003638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.042372 seconds.
+  path: Assets/Models/Polygon-ForestVillage
+  artifactKey: Guid(370ab8750bd1f0b41be31da6d55eafad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage using Guid(370ab8750bd1f0b41be31da6d55eafad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c24d9e3cdd87f4016c0c26e4e0143d2') in 0.003500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.135362 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models
+  artifactKey: Guid(3b18fd2c33cc6bd4eabcb348425cc2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models using Guid(3b18fd2c33cc6bd4eabcb348425cc2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171a2022aae31506d34271f95ab8a883') in 0.004222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.380632 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs
+  artifactKey: Guid(6d60c96e5299ec74f92eae09bdea2e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs using Guid(6d60c96e5299ec74f92eae09bdea2e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233a7227195192afa1883de179c7e177') in 0.003264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105651 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Announcement_01.prefab
+  artifactKey: Guid(cb384d8a696a79346a2d11dfcdba803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Announcement_01.prefab using Guid(cb384d8a696a79346a2d11dfcdba803d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0d87928c133dd29e925e656fcf3f65') in 0.527882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_B.prefab
+  artifactKey: Guid(760d013432428964ab4738f723c9d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_B.prefab using Guid(760d013432428964ab4738f723c9d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587e6f73a799ad5248866e18ee9e627e') in 0.025517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_02_D.prefab
+  artifactKey: Guid(20d63f2cf1111224ca43f3fd0d7acd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_02_D.prefab using Guid(20d63f2cf1111224ca43f3fd0d7acd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd405740caa2a4acf8b7778a2b5e6480') in 0.024280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_H.prefab
+  artifactKey: Guid(2f75a564f47d1f94cb17c49487e63ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_H.prefab using Guid(2f75a564f47d1f94cb17c49487e63ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2741c8d6a691dff45416acf5092973b2') in 0.015531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tree_07.prefab
+  artifactKey: Guid(a08d03ca4b1e42a4ea190353bec1d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tree_07.prefab using Guid(a08d03ca4b1e42a4ea190353bec1d557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53aa89daeeabd4c1168df05a2c5bbd41') in 0.018513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tent_01.prefab
+  artifactKey: Guid(dfe9225b318b8354680feeabfa72dbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tent_01.prefab using Guid(dfe9225b318b8354680feeabfa72dbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cbf6ea28215790f73189b962812c65') in 0.019611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_A.prefab
+  artifactKey: Guid(2443fcef4d319834f8c088a6d5bb7d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_A.prefab using Guid(2443fcef4d319834f8c088a6d5bb7d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30137553e0b0b50f3c987194b3782373') in 0.026446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_05.prefab
+  artifactKey: Guid(f35dcc8139456aa45934f10151eb54d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_05.prefab using Guid(f35dcc8139456aa45934f10151eb54d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d25bea4c99635677e3d7aff56f0e54') in 0.167441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_03.prefab
+  artifactKey: Guid(0b5e7d1c8283a0c48a0b17c1286bb4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_03.prefab using Guid(0b5e7d1c8283a0c48a0b17c1286bb4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a71e1baf495882a6bcbd9618dcb6a78') in 0.017295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_FishingRods_02_A.prefab
+  artifactKey: Guid(613fe42205a17e449b8dc37f8d44fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_FishingRods_02_A.prefab using Guid(613fe42205a17e449b8dc37f8d44fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0509068bf6b846585221cbb78174be') in 0.018808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Sickle_01.prefab
+  artifactKey: Guid(13b4d63d4ae4bf649a4993a39d606438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Sickle_01.prefab using Guid(13b4d63d4ae4bf649a4993a39d606438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee867aa299199aad61c97f6364ed87') in 0.018609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_C.prefab
+  artifactKey: Guid(1294b315b06f7254dadacf8a43aa1170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_C.prefab using Guid(1294b315b06f7254dadacf8a43aa1170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c0afb712bc5f22289f7382aa36910a') in 0.018474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Haystack_02.prefab
+  artifactKey: Guid(f774785ff44bb6c4b9d0aacfdaceb79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Haystack_02.prefab using Guid(f774785ff44bb6c4b9d0aacfdaceb79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a96877fc950d9d8f6bc89e18b37dc1') in 0.020135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_06.prefab
+  artifactKey: Guid(1dae9e74db1c8b4408c911469878c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_06.prefab using Guid(1dae9e74db1c8b4408c911469878c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca59cc1958170e1459d925a4180ddbd1') in 0.019827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Pit_01.prefab
+  artifactKey: Guid(e160fc603a451424baae0f9e66c81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Pit_01.prefab using Guid(e160fc603a451424baae0f9e66c81be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b437268bcc569e753c3a4ebc47e04ec') in 0.022924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_07.prefab
+  artifactKey: Guid(4ad14ae8f04fd0847b5ca73e77c36efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_07.prefab using Guid(4ad14ae8f04fd0847b5ca73e77c36efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0daec0e882d907a230d95c6671d8be2') in 0.023215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Camp_01.prefab
+  artifactKey: Guid(053fdfb2019897143849d5e32416cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Camp_01.prefab using Guid(053fdfb2019897143849d5e32416cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddf4ee664fa1fdfbbd899db28464879') in 0.021785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_02_C.prefab
+  artifactKey: Guid(a918c039b34258b46aea280336cde3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_02_C.prefab using Guid(a918c039b34258b46aea280336cde3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c1d0a054fff2307e563cc17bdfccde') in 0.023428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_B.prefab
+  artifactKey: Guid(364eb508842467646ac4c823174f7b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_B.prefab using Guid(364eb508842467646ac4c823174f7b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4c1106cdf81ef812afeb8b1c1aa54') in 0.023859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_C.prefab
+  artifactKey: Guid(7c0af4512e10f3b4ca40fc3cf5e7cab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_C.prefab using Guid(7c0af4512e10f3b4ca40fc3cf5e7cab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222cc178f05eecfe85722600266607a8') in 0.023659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_01.prefab
+  artifactKey: Guid(06fdd28ca6c522946a3dcc532c347e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_01.prefab using Guid(06fdd28ca6c522946a3dcc532c347e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd42c8513570c2366d077ab6e2115b0d') in 0.022767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_02.prefab
+  artifactKey: Guid(db52a30ff10e63a45b7be89d4e1be279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_02.prefab using Guid(db52a30ff10e63a45b7be89d4e1be279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048e653d3d70cff8578860c718328d42') in 0.019481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Lighthouse_01.prefab
+  artifactKey: Guid(ccc8187e88e572048b086bd19314c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Lighthouse_01.prefab using Guid(ccc8187e88e572048b086bd19314c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3243af50bb823f93a031135867f5f37c') in 0.028427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Church_01.prefab
+  artifactKey: Guid(d509a3007d8ca314091fd8ed017222ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Church_01.prefab using Guid(d509a3007d8ca314091fd8ed017222ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92045c5af1274614bc560edf19705b1b') in 0.034016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_08.prefab
+  artifactKey: Guid(302d8f205fa92224faf741bd1edc1793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_08.prefab using Guid(302d8f205fa92224faf741bd1edc1793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efa729be352f1c7395f706597755aa2') in 0.023602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_E.prefab
+  artifactKey: Guid(7aa7dba4f83bd854ebdabc16e4990773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_E.prefab using Guid(7aa7dba4f83bd854ebdabc16e4990773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34deb8bf2d4af0bea02ae657a78a9a06') in 0.019722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_04.prefab
+  artifactKey: Guid(832e2befa197dd04098682f936647565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_04.prefab using Guid(832e2befa197dd04098682f936647565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd69a06894c3297a710179e5cd484e00') in 0.021701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Cupboard_01.prefab
+  artifactKey: Guid(8b0ba690e29b90d4fa29c1c5e5100f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Cupboard_01.prefab using Guid(8b0ba690e29b90d4fa29c1c5e5100f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c36406b94cf4b96057e5c680c5709b5') in 0.023195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_D.prefab
+  artifactKey: Guid(bedc8adc06e639a479b1db99ded53ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_03_D.prefab using Guid(bedc8adc06e639a479b1db99ded53ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4419f50bed6036792bfff64f1dc5b8') in 0.022628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_D.prefab
+  artifactKey: Guid(3f74925f651b10b42bc944bcfe45c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_D.prefab using Guid(3f74925f651b10b42bc944bcfe45c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc36e61ed7fced0911543ee01cb36d1') in 0.023024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tree_08.prefab
+  artifactKey: Guid(4bc1f31479455d34d95c7a8fd43e6655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tree_08.prefab using Guid(4bc1f31479455d34d95c7a8fd43e6655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4009c77dd7e80883882ce1ed9d933e85') in 0.023085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Wreckage_01_C.prefab
+  artifactKey: Guid(4f44d9116a940144485e13f35b57e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Wreckage_01_C.prefab using Guid(4f44d9116a940144485e13f35b57e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8d864f7a8ad051ce39b91d29995e1') in 0.017262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Boat_01_A.prefab
+  artifactKey: Guid(53dfa5c1e88631642a4d1f3776f83289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Boat_01_A.prefab using Guid(53dfa5c1e88631642a4d1f3776f83289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f2fe42cb8f54a1f214819132b3883e') in 0.019337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_01_E.prefab
+  artifactKey: Guid(c57fa54356126154e8e8b29eb73b5747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_01_E.prefab using Guid(c57fa54356126154e8e8b29eb73b5747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef0934830a3f5e5b5a4ae84540eabe0') in 0.019397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Bench_02.prefab
+  artifactKey: Guid(346fb784d7cfb7b4f83053916b4afe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Bench_02.prefab using Guid(346fb784d7cfb7b4f83053916b4afe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98d99e930f95887394068e35917d217') in 0.017264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Wheat_02_A.prefab
+  artifactKey: Guid(d9c915bea7d67364794fa31960659c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Wheat_02_A.prefab using Guid(d9c915bea7d67364794fa31960659c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d514d5bb2d5ab2396e635b8768a7eb1') in 0.020035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_06_C.prefab
+  artifactKey: Guid(85f2a91db07ddcc438bd2d82f93c9ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_06_C.prefab using Guid(85f2a91db07ddcc438bd2d82f93c9ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075b6136cb3fed5f19a78518702d739c') in 0.017258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_D.prefab
+  artifactKey: Guid(14b5603852a8e404dbea3e5642f76b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_D.prefab using Guid(14b5603852a8e404dbea3e5642f76b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1db3cf29c5aea6497346d01775722a') in 0.021668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Forge_02_C.prefab
+  artifactKey: Guid(9dc4b123cadf1e04fa50e3e46e9bbd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Forge_02_C.prefab using Guid(9dc4b123cadf1e04fa50e3e46e9bbd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c36eb88f08573e54864f107cedeab3') in 0.019898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Paddle_01_A.prefab
+  artifactKey: Guid(2b047d741a21ecb42b2c2c9262f2a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Paddle_01_A.prefab using Guid(2b047d741a21ecb42b2c2c9262f2a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa82d420e1ed663d9f6e68001c39087') in 0.020236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_02.prefab
+  artifactKey: Guid(de2da06c1e5602b458fa3f95be0188a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_02.prefab using Guid(de2da06c1e5602b458fa3f95be0188a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e06d1aaca252d13a982cafd3cc0454') in 0.021534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tent_02.prefab
+  artifactKey: Guid(d6fe758af36709c49aeab0b625619aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tent_02.prefab using Guid(d6fe758af36709c49aeab0b625619aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b868d6ac67c02df1cf7679b024f9dd1') in 0.019087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tree_02.prefab
+  artifactKey: Guid(57e86b435b5c13e4dbdac4d2d05626cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Tree_02.prefab using Guid(57e86b435b5c13e4dbdac4d2d05626cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138f0de7dab8c38c44213bb300bd4f28') in 0.018445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Waterhole_01.prefab
+  artifactKey: Guid(34f6ed8267e8be040beba8bc731b7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Waterhole_01.prefab using Guid(34f6ed8267e8be040beba8bc731b7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb991c588bb0dc44c365ecf11ce8164') in 0.018467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_A.prefab
+  artifactKey: Guid(caba688b16af70d4385cf5b71ee6fada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_A.prefab using Guid(caba688b16af70d4385cf5b71ee6fada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bcd6835b9f3a649549b2f95cb5efd5') in 0.019697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Boat_01_B.prefab
+  artifactKey: Guid(738df1059849ece42a71af3a35812658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Boat_01_B.prefab using Guid(738df1059849ece42a71af3a35812658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52256428c08e85779a90601f7fac97f') in 0.019612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Env_01_A.prefab
+  artifactKey: Guid(58551569356c8ce4289560db9058fbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Env_01_A.prefab using Guid(58551569356c8ce4289560db9058fbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd283a28302b6afab84caf5df956449') in 0.019600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_03.prefab
+  artifactKey: Guid(b07d3c2f04aa109479d00ae221d59afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_03.prefab using Guid(b07d3c2f04aa109479d00ae221d59afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcaf4490d64a25d0e050589c499f3256') in 0.019362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_B.prefab
+  artifactKey: Guid(05bf207c7722c734f90a2a8a8ef23014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_B.prefab using Guid(05bf207c7722c734f90a2a8a8ef23014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a442cf53299c24ab1ab2b2bc73ed0e26') in 0.018460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_07.prefab
+  artifactKey: Guid(9fd2b91f4950fca4b84d8f4daaadb252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Build_07.prefab using Guid(9fd2b91f4950fca4b84d8f4daaadb252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc35c20814e1a6815b694b4a5568f5c') in 0.025516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Barrel_02.prefab
+  artifactKey: Guid(1af340230d2113b4faa63572d3d3cad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Barrel_02.prefab using Guid(1af340230d2113b4faa63572d3d3cad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd287027ca9f68a749538892927feed6b') in 0.024181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_05_A.prefab
+  artifactKey: Guid(1a7196bb3c341bb4591c231f696b8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_05_A.prefab using Guid(1a7196bb3c341bb4591c231f696b8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c819fc658a8c150c4b864d4b34bb444') in 0.021470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Hammer_01.prefab
+  artifactKey: Guid(e7f335ba44593ea4ba27565073876ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Hammer_01.prefab using Guid(e7f335ba44593ea4ba27565073876ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39afcdc59ead5a35e6f1c354c7c7d728') in 0.024533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Rock_05.prefab
+  artifactKey: Guid(7f3d30d05aa72a14e956d5a91a4012a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Rock_05.prefab using Guid(7f3d30d05aa72a14e956d5a91a4012a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050ce9dfb355ceb618e58bb4c64e4d0b') in 0.021951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Grinder_01.prefab
+  artifactKey: Guid(ddd3bd8f41f7c0548ac3c5ba5bee15f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Grinder_01.prefab using Guid(ddd3bd8f41f7c0548ac3c5ba5bee15f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e417646309d05bf9677a139eabbe67') in 0.023560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Reeds.prefab
+  artifactKey: Guid(9cf2f3004d96b394b82488777765e4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Reeds.prefab using Guid(9cf2f3004d96b394b82488777765e4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754c35dc55829058df5eda5732679b28') in 0.021919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Furnace_01.prefab
+  artifactKey: Guid(8fb03392d1eeedc44b873084505ce2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Furnace_01.prefab using Guid(8fb03392d1eeedc44b873084505ce2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4e5665ca85f0342d6d642507c6f8b3') in 0.023741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Berth_02.prefab
+  artifactKey: Guid(acf9b2f5a8145f64fa2c12efa1c7ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Berth_02.prefab using Guid(acf9b2f5a8145f64fa2c12efa1c7ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e150aeb9cd3c9ca9faad92bbe55337') in 0.021797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_04.prefab
+  artifactKey: Guid(ab8f6bf027038b34e8b778e7f7e0e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Fence_04.prefab using Guid(ab8f6bf027038b34e8b778e7f7e0e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850f60eeebc021c36d11b6652f96211e') in 0.022304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Field_01_A.prefab
+  artifactKey: Guid(ebd62412e1b15784f8296798f2fb61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Field_01_A.prefab using Guid(ebd62412e1b15784f8296798f2fb61e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65090d131f3afc53c4e10cf048bc612') in 0.020085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_08.prefab
+  artifactKey: Guid(c8e40ae4db0cd0e40975c208c993eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Foliage_08.prefab using Guid(c8e40ae4db0cd0e40975c208c993eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de68f2e258befa511bff0177820f8080') in 0.020615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Barrel_01.prefab
+  artifactKey: Guid(b5c654d5105c6ad4280e0b5dc0b8305b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Barrel_01.prefab using Guid(b5c654d5105c6ad4280e0b5dc0b8305b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50f9f73d9b2b96a1ef7e09454121bcc') in 0.018011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Rock_10.prefab
+  artifactKey: Guid(ffe6714c22375b347bea9d74e303f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Rock_10.prefab using Guid(ffe6714c22375b347bea9d74e303f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10752e2bd371bb7f4ac65bc8f16f35b2') in 0.017362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Rock_01.prefab
+  artifactKey: Guid(92ae6db865a91bb4697c3987c78dd681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Rock_01.prefab using Guid(92ae6db865a91bb4697c3987c78dd681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ab94c4399e0e1a0a18d939161beb6d') in 0.018378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Well_02_B.prefab
+  artifactKey: Guid(469c849e338a3de4bb7dab108e264eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Well_02_B.prefab using Guid(469c849e338a3de4bb7dab108e264eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac2fbd4512da6b505076a2f33ff5fef') in 0.017372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Wreckage_01_A.prefab
+  artifactKey: Guid(cdac784bf14e0e24bb7a41992ad3daf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Wreckage_01_A.prefab using Guid(cdac784bf14e0e24bb7a41992ad3daf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632f0a1e711d40c7a6a5a5b74007eebb') in 0.018735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Berth_04.prefab
+  artifactKey: Guid(90891dadcc74f0c45a2488733a1092e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Berth_04.prefab using Guid(90891dadcc74f0c45a2488733a1092e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589114b238c0bc14644685bea834f578') in 0.018615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Barn_01_A.prefab
+  artifactKey: Guid(b31b19aa1ded1d248a5dfe55cbbd72a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Barn_01_A.prefab using Guid(b31b19aa1ded1d248a5dfe55cbbd72a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e92a55eeef30677fb962cd217b236f9') in 0.020824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Cart_02.prefab
+  artifactKey: Guid(17a61f1f779b0dd47bafa0045f95e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Cart_02.prefab using Guid(17a61f1f779b0dd47bafa0045f95e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0a7741812dd1b3d67f413b4dc1bb56') in 0.018901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_05_B.prefab
+  artifactKey: Guid(8aaa38774e9a4a64d94c59dd04b15715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_05_B.prefab using Guid(8aaa38774e9a4a64d94c59dd04b15715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098a5d6389fc27cc2a347a4ed3033d4c') in 0.015866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_C.prefab
+  artifactKey: Guid(7831c292728d10c4f94a0921843cb3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Support_01_C.prefab using Guid(7831c292728d10c4f94a0921843cb3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4335473b791c3f4f41c7094b4f9c37') in 0.018298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_I.prefab
+  artifactKey: Guid(6deac7eac62dfa44a821f46c09339f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/SM_Ground_04_I.prefab using Guid(6deac7eac62dfa44a821f46c09339f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201794391bbff3409e37576c67601f4') in 0.017560 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
