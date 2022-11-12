@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class BulletHandler : MonoBehaviour
+public class BulletHandler : NetworkBehaviour
 {
     public float duration = 10f;
     float despawnTime;
@@ -24,13 +25,18 @@ public class BulletHandler : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("collider hit.");
-        if (collision.tag == "Enemy")
+        if (collision.tag == "Enemy" && isServer)
         {
-            collision.GetComponent<EnemyController>().health -= damage;
-            Destroy(gameObject);
+            CmdDoDamage(collision.gameObject, gameObject, damage);
         }
+    }
+
+    [Command(requiresAuthority = false)]
+    void CmdDoDamage(GameObject enemy, GameObject bullet, float damage)
+    {
+        enemy.GetComponent<EnemyController>().health -= damage;
+        Destroy(bullet);
     }
 }

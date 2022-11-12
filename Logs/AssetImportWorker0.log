@@ -1295,3 +1295,1289 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2393.977376 seconds.
+  path: Assets/Scenes/Lobby.unity
+  artifactKey: Guid(66b8061893b0ffd4c93024f5cd9ee879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lobby.unity using Guid(66b8061893b0ffd4c93024f5cd9ee879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820ed8845312b0cf877b1c5346fdfe0e') in 0.013097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.103055 seconds.
+  path: Assets/Scenes/Level.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab507c0d39765ab59084f92e15b5012d') in 0.003514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.365682 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(b3a680f806098ba44bf5f23affc15dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(b3a680f806098ba44bf5f23affc15dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0089bbd5711e41aa20ae37b182181967') in 0.003815 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1673ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1247ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4239.
+Memory consumption went from 148.8 MB to 148.0 MB.
+Total: 5.035600 ms (FindLiveObjects: 0.338100 ms CreateObjectMapping: 0.103000 ms MarkObjects: 4.048300 ms  DeleteObjects: 0.544900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1520ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1128ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4242.
+Memory consumption went from 148.8 MB to 148.0 MB.
+Total: 4.564500 ms (FindLiveObjects: 0.361600 ms CreateObjectMapping: 0.110300 ms MarkObjects: 3.608500 ms  DeleteObjects: 0.482300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014103 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.537 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1538ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4245.
+Memory consumption went from 148.8 MB to 148.0 MB.
+Total: 4.193600 ms (FindLiveObjects: 0.339000 ms CreateObjectMapping: 0.097100 ms MarkObjects: 3.285400 ms  DeleteObjects: 0.470900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.645 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1646ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1218ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (563ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4248.
+Memory consumption went from 148.8 MB to 148.0 MB.
+Total: 4.381900 ms (FindLiveObjects: 0.340500 ms CreateObjectMapping: 0.096500 ms MarkObjects: 3.461500 ms  DeleteObjects: 0.481900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1624ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1224ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4251.
+Memory consumption went from 148.8 MB to 148.0 MB.
+Total: 4.547600 ms (FindLiveObjects: 0.346500 ms CreateObjectMapping: 0.104400 ms MarkObjects: 3.605800 ms  DeleteObjects: 0.488700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1626ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1247ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (399ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4254.
+Memory consumption went from 148.8 MB to 148.1 MB.
+Total: 4.541600 ms (FindLiveObjects: 0.353600 ms CreateObjectMapping: 0.104000 ms MarkObjects: 3.552600 ms  DeleteObjects: 0.529500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.595 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1596ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4257.
+Memory consumption went from 148.8 MB to 148.1 MB.
+Total: 7.143200 ms (FindLiveObjects: 0.361500 ms CreateObjectMapping: 0.095700 ms MarkObjects: 5.873200 ms  DeleteObjects: 0.811300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021236 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1671ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1307ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4260.
+Memory consumption went from 148.8 MB to 148.1 MB.
+Total: 4.721000 ms (FindLiveObjects: 0.453900 ms CreateObjectMapping: 0.102400 ms MarkObjects: 3.630300 ms  DeleteObjects: 0.532700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 976.995022 seconds.
+  path: Assets/Scenes/Level.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04837bd671d50113c114457d564831aa') in 0.009886 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016908 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.553 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1554ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1191ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (538ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4263.
+Memory consumption went from 148.8 MB to 148.1 MB.
+Total: 4.567100 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.111400 ms MarkObjects: 3.536900 ms  DeleteObjects: 0.565600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1600ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1182ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4266.
+Memory consumption went from 148.8 MB to 148.1 MB.
+Total: 5.411100 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.100100 ms MarkObjects: 4.385900 ms  DeleteObjects: 0.557700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015247 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1622ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1249ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (585ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3728 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 4269.
+Memory consumption went from 148.8 MB to 148.1 MB.
+Total: 5.585500 ms (FindLiveObjects: 0.360600 ms CreateObjectMapping: 0.102100 ms MarkObjects: 4.653600 ms  DeleteObjects: 0.467700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 165.698376 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(2f47c58da2265d04396209242e6e34e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(2f47c58da2265d04396209242e6e34e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998a72eb46122f85f4b13f52f74c8560') in 0.011283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.605274 seconds.
+  path: Assets/Materials/GreenHealth.mat
+  artifactKey: Guid(ff23b41ca6678c541be389b529fdaed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GreenHealth.mat using Guid(ff23b41ca6678c541be389b529fdaed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df2373ca5141b969cadaf483cbcae73') in 0.111200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.881850 seconds.
+  path: Assets/Materials/RedHealth.mat
+  artifactKey: Guid(8ea85ba562a02844faab9d32bec96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RedHealth.mat using Guid(8ea85ba562a02844faab9d32bec96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee0b34346c6cc0e3f44ec2a7dfc6fb3') in 0.014710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.270196 seconds.
+  path: Assets/Prefabs/Character/Player.prefab
+  artifactKey: Guid(4663eb3dda77aa44fabb9a4256345fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character/Player.prefab using Guid(4663eb3dda77aa44fabb9a4256345fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98193d230f118a78fa5b580bd32107a2') in 0.124998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.162915 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd036785823e2281556a384dd6489b') in 0.050866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9bd1fc7738fbe8014f627c40938fed') in 0.150667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0138cb4aa5841fa638db31bc22925da3') in 0.123589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.844222 seconds.
+  path: Assets/Prefabs/Character/Enemy.prefab
+  artifactKey: Guid(2dc0bf34d7675174ab23f86b84908964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character/Enemy.prefab using Guid(2dc0bf34d7675174ab23f86b84908964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a346379afdf30029e0fe2d6310b41303') in 0.034177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.062703 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_SM_Sight_Bulpam_Assault_Rifle.fbx
+  artifactKey: Guid(8be58f94b9befed4bb18a8c0a6bd3372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_SM_Sight_Bulpam_Assault_Rifle.fbx using Guid(8be58f94b9befed4bb18a8c0a6bd3372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6631060491bd78e53ff95be42bfa2f') in 0.160027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Tactical_Block.fbx
+  artifactKey: Guid(f9a7df9a690a1bc4e90e9786a384bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Tactical_Block.fbx using Guid(f9a7df9a690a1bc4e90e9786a384bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b614a15cbb5f6d317b3539498d33b4f9') in 0.031581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Well_02_A.fbx
+  artifactKey: Guid(070b6d0aaf5568d40a57e15de4b5c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Well_02_A.fbx using Guid(070b6d0aaf5568d40a57e15de4b5c687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108ed77251d877070039c42971797e2d') in 0.029175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Telescopic_Stock.fbx
+  artifactKey: Guid(d5c4dbd72d493ba44a2edf07272e9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Telescopic_Stock.fbx using Guid(d5c4dbd72d493ba44a2edf07272e9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185184696eca553aaa1afdf051aa8aee') in 0.054901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Wooden_Forend.fbx
+  artifactKey: Guid(e782f07b3a189304bb92361bd507bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Wooden_Forend.fbx using Guid(e782f07b3a189304bb92361bd507bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955c08c350d36f9b4286d55dce88e5f2') in 0.033223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Police_Sniper_Rifle.fbx
+  artifactKey: Guid(69aba0e935e13cd42922986adc2dca22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Police_Sniper_Rifle.fbx using Guid(69aba0e935e13cd42922986adc2dca22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e5965bb6592ec3f60a73d2c7b0acec') in 0.097651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_C.fbx
+  artifactKey: Guid(5c03ce7301e16f342842634962bc5315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_C.fbx using Guid(5c03ce7301e16f342842634962bc5315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed7b4dd5ca9b8263b989fbd4f4969b4') in 0.042490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Assault_Rifle_9x39.fbx
+  artifactKey: Guid(aa9fbd59bc89f5f4a977c44eb4a7e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Assault_Rifle_9x39.fbx using Guid(aa9fbd59bc89f5f4a977c44eb4a7e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c65bc5100ad2bf11d1638f346dd8444') in 0.102087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Tree_07.fbx
+  artifactKey: Guid(5bb9e6d2164ccc9438e55efc95e4af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Tree_07.fbx using Guid(5bb9e6d2164ccc9438e55efc95e4af41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658f671c96b94143e9c706d61eefac30') in 0.026314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Police_Submachine_Gun.fbx
+  artifactKey: Guid(b387f3012fd903d478691436bc9af0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Police_Submachine_Gun.fbx using Guid(b387f3012fd903d478691436bc9af0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672efe915df2d86a32e9d7b2bb169204') in 0.103131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Weapon_Stand_01.fbx
+  artifactKey: Guid(b652e25e6371cb94d8c139693c3cc833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Weapon_Stand_01.fbx using Guid(b652e25e6371cb94d8c139693c3cc833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea211dadd18dac44b8242c1f41238b11') in 0.029432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Square_Dot_Sight.fbx
+  artifactKey: Guid(40e3986b31991ba4aad6e573d6168674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Square_Dot_Sight.fbx using Guid(40e3986b31991ba4aad6e573d6168674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e505a8750ef7b913f6889a65aa9bb') in 0.028456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Army_Submachine_Gun.fbx
+  artifactKey: Guid(1a1091ba6238ccc4daa190a42cb8a1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Army_Submachine_Gun.fbx using Guid(1a1091ba6238ccc4daa190a42cb8a1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb955a38a4f064a3fee4c7f77413bb2') in 0.107299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_E.fbx
+  artifactKey: Guid(878dcd3e714e281428a80e668050f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_E.fbx using Guid(878dcd3e714e281428a80e668050f9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc9ebe7b1e6e928ef9ae1a1d4187278') in 0.024642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Tent_01.fbx
+  artifactKey: Guid(765af30e25e07a74bbf98af33b3b16ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Tent_01.fbx using Guid(765af30e25e07a74bbf98af33b3b16ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9060e004950a8872916cd5d1723af1e') in 0.026665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Weapon_Stand_03_01.fbx
+  artifactKey: Guid(20378f300dad06343b8f052741f166be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Weapon_Stand_03_01.fbx using Guid(20378f300dad06343b8f052741f166be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b642c4f7e5e5d59113261a9fccc093') in 0.030198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Hunting_Sniper_Rifle.fbx
+  artifactKey: Guid(4aac07f2e47a5b34a884634fb2abf964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Hunting_Sniper_Rifle.fbx using Guid(4aac07f2e47a5b34a884634fb2abf964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33890e26330fcf66056c41d3b2fae26') in 0.061074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Tree_05.fbx
+  artifactKey: Guid(8f267dffdeadb394aa98ab7d8f2f3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Tree_05.fbx using Guid(8f267dffdeadb394aa98ab7d8f2f3caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316b59ab320f3399cc7eed3fd80880c3') in 0.023061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Army_Pistol.fbx
+  artifactKey: Guid(1cc03cbb51606e04faa898feb8fab8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Army_Pistol.fbx using Guid(1cc03cbb51606e04faa898feb8fab8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a259fa3efbcf3353c5724f79e0b39711') in 0.068884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Rocket_Launchers_02.fbx
+  artifactKey: Guid(71f8bdfa084ebe647864ce6ade2009d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Rocket_Launchers_02.fbx using Guid(71f8bdfa084ebe647864ce6ade2009d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a0cd0c11ac88a0bc217fa87df3d679') in 0.043945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_D.fbx
+  artifactKey: Guid(982da0aeb561e554fbfe11493778b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_D.fbx using Guid(982da0aeb561e554fbfe11493778b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8878bffe0de133c7ecb49b47b4a3584') in 0.028952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Throwing_Knife.fbx
+  artifactKey: Guid(54b4901a85b8d944eb324a56ed58777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Throwing_Knife.fbx using Guid(54b4901a85b8d944eb324a56ed58777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12decace536694bfe331fb76b12363d1') in 0.028737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Vertical_Handle_02.fbx
+  artifactKey: Guid(4138f800b0a003445ae447b3d1f905d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Vertical_Handle_02.fbx using Guid(4138f800b0a003445ae447b3d1f905d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf74248d0dc4a9906b9a40fb2a020e97') in 0.026728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Waterhole_01.fbx
+  artifactKey: Guid(7df76c6db02767644866d507eac0bc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Waterhole_01.fbx using Guid(7df76c6db02767644866d507eac0bc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd168212bcfb9a35ede39f1d4548a2a8b') in 0.024561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Special_Submachine_Gun_Clean.fbx
+  artifactKey: Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Special_Submachine_Gun_Clean.fbx using Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88f57476884dd620f0f83abde40ea29') in 0.084729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_A.fbx
+  artifactKey: Guid(589489a204d18fd4abd4658f6a120250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_A.fbx using Guid(589489a204d18fd4abd4658f6a120250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fb42433524a186e3d8d1151f6276a5') in 0.025818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine__For_Bulpam_Assault_Rifle.fbx
+  artifactKey: Guid(bbd4055f5309e58428bd38b66a91cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine__For_Bulpam_Assault_Rifle.fbx using Guid(bbd4055f5309e58428bd38b66a91cf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b279f00a3d3fb6ba14eae4cb0890fb') in 0.029461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Large_Caliber_Sniper_Rifle_Empty.fbx
+  artifactKey: Guid(438124b158014144fbe2f74817d7a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Large_Caliber_Sniper_Rifle_Empty.fbx using Guid(438124b158014144fbe2f74817d7a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230fb62854e104d89a3402afcb4ab22e') in 0.026591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,56_Empty.fbx
+  artifactKey: Guid(5d675da8e5029184eb3390c005b31e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,56_Empty.fbx using Guid(5d675da8e5029184eb3390c005b31e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57f12690daf5a28a87e7d4e80d95dbf') in 0.027633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Police_Submachine_Gun_Empty.fbx
+  artifactKey: Guid(5d7c2997023af7146a90e693c06e3612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Police_Submachine_Gun_Empty.fbx using Guid(5d7c2997023af7146a90e693c06e3612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbde896b9ceeb2e64f8d50849ea964b') in 0.027612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_High_Precision_Sniper_Rifle_Empty.fbx
+  artifactKey: Guid(11979a0068855284e9a6ced47de64e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_High_Precision_Sniper_Rifle_Empty.fbx using Guid(11979a0068855284e9a6ced47de64e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc606d1cd5d0b107ffd11eff8b08eab') in 0.022878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Lighthouse_01.fbx
+  artifactKey: Guid(e623eadd3824db248a74cf4c490ad826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Lighthouse_01.fbx using Guid(e623eadd3824db248a74cf4c490ad826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ec6eb14f8a416bc4e831f65dfd1d69') in 0.030115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Large_Magazine_For_Assault_Rifle_5,45.fbx
+  artifactKey: Guid(7d0c6eb5f784acf43a53686b14e68f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Large_Magazine_For_Assault_Rifle_5,45.fbx using Guid(7d0c6eb5f784acf43a53686b14e68f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dd5b6bc70af8ff8b90101fe9ead1c9') in 0.034411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Large_Caliber_Sniper_Rifle.fbx
+  artifactKey: Guid(b8efa0a4e58c3474baaff85649c6f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Large_Caliber_Sniper_Rifle.fbx using Guid(b8efa0a4e58c3474baaff85649c6f4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46668b8c21f4ab641b1d3586b1d41649') in 0.027214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Handguard_For_Submachine_Gun_01.fbx
+  artifactKey: Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Handguard_For_Submachine_Gun_01.fbx using Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76449b496e0c1c30e81dcb6d2c10e5f6') in 0.025925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_Tactical_Submachine_Gun.fbx
+  artifactKey: Guid(4c5746a85c61af64f982c32bb7696b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_Tactical_Submachine_Gun.fbx using Guid(4c5746a85c61af64f982c32bb7696b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1231c056335bdd14cb96268b6704fea6') in 0.030363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,56.fbx
+  artifactKey: Guid(0d0167bb018bc9b4882bd902b3003a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,56.fbx using Guid(0d0167bb018bc9b4882bd902b3003a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1eb519612c7f08382b96b1aaf90b2b') in 0.027324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Frag_Grenade.fbx
+  artifactKey: Guid(b070771f7aeda724aaac027d8d200fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Frag_Grenade.fbx using Guid(b070771f7aeda724aaac027d8d200fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfb73cf13be1f2921edb9ddd8027f34') in 0.049652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Police_Sniper_Rifle_Empty.fbx
+  artifactKey: Guid(4bdaf9d07066e8e4e9e4baa84bc1c3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Police_Sniper_Rifle_Empty.fbx using Guid(4bdaf9d07066e8e4e9e4baa84bc1c3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed240c278ecc3173bdaa2db91b79aa1') in 0.025526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_SM_Assault_Rifle_9x39.fbx
+  artifactKey: Guid(3c48523ad262cc5459eeeb2e30a9ddd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_SM_Assault_Rifle_9x39.fbx using Guid(3c48523ad262cc5459eeeb2e30a9ddd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6810e30ffb0d891c108d1e7d9a009a35') in 0.030067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Pistol_Grip_01_5.45.fbx
+  artifactKey: Guid(e37ea53166e4e6a428c089ca5fb98277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Pistol_Grip_01_5.45.fbx using Guid(e37ea53166e4e6a428c089ca5fb98277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d88300fe78fbe087da1a1c70807f0e') in 0.029052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Gun_Table_01.fbx
+  artifactKey: Guid(00953e5b7f16cd34eb090bf4f8f3278a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Gun_Table_01.fbx using Guid(00953e5b7f16cd34eb090bf4f8f3278a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4662c884b3d45e9fbe2db6e6ee70b09') in 0.028856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Pistol_Grip_Prototype.fbx
+  artifactKey: Guid(e8c8e3432783a3e4aba34fdd7554492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Pistol_Grip_Prototype.fbx using Guid(e8c8e3432783a3e4aba34fdd7554492e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c49e97d621c6bab354a69bdd360f669') in 0.027505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Muzzle_Large_Caliber_Sniper_Rifle_01.fbx
+  artifactKey: Guid(341c2a96d5f11064ba99ad384a4ef63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Muzzle_Large_Caliber_Sniper_Rifle_01.fbx using Guid(341c2a96d5f11064ba99ad384a4ef63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ffdb91e9fb181d9b2b63eafd479223') in 0.025561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Tent_02.fbx
+  artifactKey: Guid(bad16695a23f1dd4c8801f5151488222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Tent_02.fbx using Guid(bad16695a23f1dd4c8801f5151488222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40387ad1158812ee50f4d12929117442') in 0.043600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_B.fbx
+  artifactKey: Guid(f5e341e397f97744387cb5b42e0a32c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Support_01_B.fbx using Guid(f5e341e397f97744387cb5b42e0a32c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd454bd7a69fee8b7dae76082f4c5d08') in 0.026908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,45_Empty.fbx
+  artifactKey: Guid(30a2bbd0ff5a3db4583060cc33a011c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,45_Empty.fbx using Guid(30a2bbd0ff5a3db4583060cc33a011c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab9bf1b58e7571a2e36995d5246406d') in 0.028707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Assault_Rifle_5,56_Clean.fbx
+  artifactKey: Guid(8ce7c6c34ee0fec489fbc379eb40980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Assault_Rifle_5,56_Clean.fbx using Guid(8ce7c6c34ee0fec489fbc379eb40980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd5972281231a60380e730367103c37') in 0.101908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/SM_Tree_02.fbx
+  artifactKey: Guid(b75f058aa4d5200409a90b2caea9f1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/SM_Tree_02.fbx using Guid(b75f058aa4d5200409a90b2caea9f1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d80cbe4f1dd929e4e92e0b2ad7cd09a') in 0.028740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/DLC/SM_Stick_01.fbx
+  artifactKey: Guid(1f8242feb7899704fa2fdf1731d20fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/DLC/SM_Stick_01.fbx using Guid(1f8242feb7899704fa2fdf1731d20fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636fc53cbdc5a2f50ddb94b3d77b38b7') in 0.026939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,45.fbx
+  artifactKey: Guid(639f473575ad0b54c93777eeb3b1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Models/SM_Magazine_For_Assault_Rifle_5,45.fbx using Guid(639f473575ad0b54c93777eeb3b1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b79130909e70516f61126457353532f') in 0.026947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.108762 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BurntBody_02.fbx
+  artifactKey: Guid(552f94385c27aa448b970a3970afd459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BurntBody_02.fbx using Guid(552f94385c27aa448b970a3970afd459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8120008c8a7e295ab0193ddaff2526') in 0.025229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BioSign_01_Convex.asset
+  artifactKey: Guid(c57ca7595ce445847b5597ff283f98bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BioSign_01_Convex.asset using Guid(c57ca7595ce445847b5597ff283f98bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d64114840d4b35b393074630097f3af') in 0.017384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Weapons/SA_Wep_WeedWhacker_Convex.asset
+  artifactKey: Guid(11ad4c774381d0749885bc0eef5c5ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Weapons/SA_Wep_WeedWhacker_Convex.asset using Guid(11ad4c774381d0749885bc0eef5c5ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec9e77fb2cf960f59164ce753fa7347') in 0.018176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Canteen_Convex.asset
+  artifactKey: Guid(d1b98a2d0de4ca042baa33e2510cc38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Canteen_Convex.asset using Guid(d1b98a2d0de4ca042baa33e2510cc38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70159d2f193445653e7f3fc7229f82f9') in 0.020998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_FlashlightA_Convex.asset
+  artifactKey: Guid(137653e3ae04ef647a2c8578806e599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_FlashlightA_Convex.asset using Guid(137653e3ae04ef647a2c8578806e599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaab28c6f994927734cae1f16a90c28') in 0.018065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Wire_Damaged_02_Convex.asset
+  artifactKey: Guid(dcbc79d45e2d04c41aaddeab8ce1c12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Wire_Damaged_02_Convex.asset using Guid(dcbc79d45e2d04c41aaddeab8ce1c12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d52ecdc0e7293b744d5cd926f1f1423') in 0.015946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Models/ENV/SM_Env_01_A.fbx
+  artifactKey: Guid(a6776dc9acf8fb649beeb7aafbdd0c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Models/ENV/SM_Env_01_A.fbx using Guid(a6776dc9acf8fb649beeb7aafbdd0c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69575a0e1047f61753de89d53c61a983') in 0.026511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_AmmoPile_M_01_Convex.asset
+  artifactKey: Guid(493f7aefccc38ef4b94d07356afa849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_AmmoPile_M_01_Convex.asset using Guid(493f7aefccc38ef4b94d07356afa849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8897406f619c630ddac9bc29a5f30e3') in 0.016104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Apartment_Damaged_01_Convex.asset
+  artifactKey: Guid(c469397263d9ed84385c3c1746597e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Apartment_Damaged_01_Convex.asset using Guid(c469397263d9ed84385c3c1746597e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31aad6854fa94197b31802186e09219') in 0.018260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Bloodstain_02_Convex.asset
+  artifactKey: Guid(10408d446322f5c45b08e8c5091615b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Bloodstain_02_Convex.asset using Guid(10408d446322f5c45b08e8c5091615b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f3e4b3f13e29f0e2c72749a37c5831') in 0.019232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Ammo_Shotgun_Convex.asset
+  artifactKey: Guid(d8a57fcfc17262445b6226518d6a71e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Ammo_Shotgun_Convex.asset using Guid(d8a57fcfc17262445b6226518d6a71e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1398960009592abc3c5f0a02673caed') in 0.019964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Bag_TravelBag_02_Convex.asset
+  artifactKey: Guid(b69f0e6a664aefe4183781f1594809d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Bag_TravelBag_02_Convex.asset using Guid(b69f0e6a664aefe4183781f1594809d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d363afafe471abfa4fe42692364dc2') in 0.020250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Iron_01_Convex.asset
+  artifactKey: Guid(0257f4701f898fe479c1928fc7ffc743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Iron_01_Convex.asset using Guid(0257f4701f898fe479c1928fc7ffc743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18edd44548ef71410031b62c41cdc48') in 0.017819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Wire_Damaged_01_Convex.asset
+  artifactKey: Guid(76bf841068c7e354eadf8b0628cab0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Wire_Damaged_01_Convex.asset using Guid(76bf841068c7e354eadf8b0628cab0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4717afa0fef9fbbca490d1b9257418') in 0.015756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Barrier_03_Convex.asset
+  artifactKey: Guid(8056cd61d23e74e44a70ab446a9c0f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Barrier_03_Convex.asset using Guid(8056cd61d23e74e44a70ab446a9c0f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dda2d86b6cb3e3c13b8e0c0e763052') in 0.016604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_01_Convex 1.asset
+  artifactKey: Guid(f343381dd28d69c498d31a84620e94ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_01_Convex 1.asset using Guid(f343381dd28d69c498d31a84620e94ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94e43f25e82c6f9970ab633bd4f864c') in 0.036871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BeerKeg_01_Convex.asset
+  artifactKey: Guid(fd7105104339aef449231ecd606d67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BeerKeg_01_Convex.asset using Guid(fd7105104339aef449231ecd606d67c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86510caf2186c050f5c34e428bc790c5') in 0.015398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Compass_Convex.asset
+  artifactKey: Guid(2eef9061e51621d4da862418b20f84c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Compass_Convex.asset using Guid(2eef9061e51621d4da862418b20f84c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8ee8a804d0b613cd19c25e8d6b23ec') in 0.014868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BeerCan_02_Convex.asset
+  artifactKey: Guid(29c67bfc3b9b36c4e803e19a9121b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BeerCan_02_Convex.asset using Guid(29c67bfc3b9b36c4e803e19a9121b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4c2f4f4dff77d6ca26059e5ae44358') in 0.015141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_CinderBlock_01_Convex.asset
+  artifactKey: Guid(328b5d668fd519e4a8392dcd23c20ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_CinderBlock_01_Convex.asset using Guid(328b5d668fd519e4a8392dcd23c20ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88318e359395ef14ea7fa1698d76887') in 0.019054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Ammo_Rifle_Convex.asset
+  artifactKey: Guid(c76fecc51c3034f4492d0fa763f707c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Ammo_Rifle_Convex.asset using Guid(c76fecc51c3034f4492d0fa763f707c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09eb5912ccb4607e9c9cbb8ab43d37c') in 0.020213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_AmmoBox_01_Convex.asset
+  artifactKey: Guid(486555b38d055654dbfdbcd62f0d11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_AmmoBox_01_Convex.asset using Guid(486555b38d055654dbfdbcd62f0d11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5a720a1fda620ab76ff0bc6d4d5516') in 0.018544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_02_Convex 1.asset
+  artifactKey: Guid(f89f22a807eac7d428352308dd9465b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_02_Convex 1.asset using Guid(f89f22a807eac7d428352308dd9465b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bd173859177c9dd812802bf7c0128f') in 0.034423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_AutoRepair_Damaged_01_Convex.asset
+  artifactKey: Guid(b0bba276fdafd644e9866c99e75c9051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_AutoRepair_Damaged_01_Convex.asset using Guid(b0bba276fdafd644e9866c99e75c9051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbcf58adc9ba04092487017ba74f130') in 0.019348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_PowerLineLarge_01_Convex 1.asset
+  artifactKey: Guid(ab2cbfa6e435623438a790efbbf7f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_PowerLineLarge_01_Convex 1.asset using Guid(ab2cbfa6e435623438a790efbbf7f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a85de63b41ac1f3b9aa424f3e49e2f') in 0.043001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_Hanging_Convex.asset
+  artifactKey: Guid(b086118659a031c4aa25d93a1f34e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_Hanging_Convex.asset using Guid(b086118659a031c4aa25d93a1f34e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd974abf9f265a07949d1e2fc37dfc87f') in 0.017475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_RoadFlareStick_Convex.asset
+  artifactKey: Guid(bfd3a686c4f68f54eb56c5a76e961099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_RoadFlareStick_Convex.asset using Guid(bfd3a686c4f68f54eb56c5a76e961099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5512c39ded1b931954e90eb3c43c32') in 0.016724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_AirplaneSeat_Convex.asset
+  artifactKey: Guid(2fdaa2f06320bbe4b8655def7a2c4d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_AirplaneSeat_Convex.asset using Guid(2fdaa2f06320bbe4b8655def7a2c4d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b00df628aa958eeb87ba645333b4723') in 0.016786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Tape_Convex.asset
+  artifactKey: Guid(5c858f900607c2c42b53fd7a40368eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Tape_Convex.asset using Guid(5c858f900607c2c42b53fd7a40368eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f043fcff9247f4f8cbb00e7303b6e6') in 0.020380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BurntBody_04.fbx
+  artifactKey: Guid(2e585afbdf6c39f4ea34116dd867e0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BurntBody_04.fbx using Guid(2e585afbdf6c39f4ea34116dd867e0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46284924cb5cd1dd4fce7a86e70b22fc') in 0.029604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BioSign_Damage_01_Convex.asset
+  artifactKey: Guid(24f1145cf4645aa409e9cf1547f736be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BioSign_Damage_01_Convex.asset using Guid(24f1145cf4645aa409e9cf1547f736be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7debdcb833e2d26c8c872cc6bd74f12d') in 0.021580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BarrelTipped_02_Convex.asset
+  artifactKey: Guid(2e688b45b4a88a448bc058848e0a00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BarrelTipped_02_Convex.asset using Guid(2e688b45b4a88a448bc058848e0a00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86392f55e7901a57c8f286f25235a52b') in 0.031885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Lighter_Convex.asset
+  artifactKey: Guid(624383c17231e0e42a10116d5d9762b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Lighter_Convex.asset using Guid(624383c17231e0e42a10116d5d9762b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94fe696e24b912b29efb117fbab2cef') in 0.017541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_OnCarTop_02.fbx
+  artifactKey: Guid(26b9102efcfeb5c4391d29bea28ac016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_OnCarTop_02.fbx using Guid(26b9102efcfeb5c4391d29bea28ac016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed7f9d86282855421a91afae10a7777') in 0.026575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_OnCarTop_01.fbx
+  artifactKey: Guid(cc5a07fa4e2d1de49b881e387c33daa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_DeadBody_OnCarTop_01.fbx using Guid(cc5a07fa4e2d1de49b881e387c33daa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03188c34ac9733d20d26929fdd84d16') in 0.029098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Candles_Convex.asset
+  artifactKey: Guid(76455c008ed0fd242923262aaa95f26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Candles_Convex.asset using Guid(76455c008ed0fd242923262aaa95f26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c9edc65a93607a8b2dadc076421b25') in 0.020331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Rope_Convex.asset
+  artifactKey: Guid(5797d4d26ac12724485c39bfb6d5f848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Rope_Convex.asset using Guid(5797d4d26ac12724485c39bfb6d5f848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8762d9b3e03ad234dbbbb6f60e0990') in 0.017054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Backpack_02_Convex.asset
+  artifactKey: Guid(cc4644924fdc9ba47ab499d95f3ad3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Backpack_02_Convex.asset using Guid(cc4644924fdc9ba47ab499d95f3ad3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4488ee01c1791fbf67cee0e17b7accba') in 0.018562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BioBioTentSign_01_Convex 1.asset
+  artifactKey: Guid(6891b18cc54e8ca45b56c351005511ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BioBioTentSign_01_Convex 1.asset using Guid(6891b18cc54e8ca45b56c351005511ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f46aaab1982db4adc71668de3ef60d9') in 0.035572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_01_Convex.asset
+  artifactKey: Guid(f8f1a55a3953f744a9789b0677251231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_01_Convex.asset using Guid(f8f1a55a3953f744a9789b0677251231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105d8a310c4353ef26efd323178e29df') in 0.020838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Mousetrap_Convex.asset
+  artifactKey: Guid(284d2738e2695ec4d9481e538da3c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Mousetrap_Convex.asset using Guid(284d2738e2695ec4d9481e538da3c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c9c57747f1052d01a0e3c9ac776fc9') in 0.019572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Corrugated_Full1_Convex.asset
+  artifactKey: Guid(89a2e01a873906448be37945bbd437c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Fence_Corrugated_Full1_Convex.asset using Guid(89a2e01a873906448be37945bbd437c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ca48779a1f5d8f2c45faa2a8ca4931') in 0.018061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Desk_01_Convex.asset
+  artifactKey: Guid(432660ebf01321d46b843434e76c74aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Desk_01_Convex.asset using Guid(432660ebf01321d46b843434e76c74aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd014ea9517accbe3b1dab1b952ad719c') in 0.020407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BBQ_02_Convex.asset
+  artifactKey: Guid(6ce23b228d3646442a0b0048e415f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_BBQ_02_Convex.asset using Guid(6ce23b228d3646442a0b0048e415f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0312d2208f038a96948f21605f149e79') in 0.018929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Lantern_Convex.asset
+  artifactKey: Guid(b533857425fa9144dae611b31f8ca779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Items/SA_Item_Lantern_Convex.asset using Guid(b533857425fa9144dae611b31f8ca779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e48b7dea4725c87ca23c8a0207be11') in 0.016573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Container_01_Convex.asset
+  artifactKey: Guid(b0fccf1ee12662f4e88544bea941dfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Container_01_Convex.asset using Guid(b0fccf1ee12662f4e88544bea941dfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2444581d2c8f6ae3a83fab9d3b10cf') in 0.019044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Bloodstain_01_Convex.asset
+  artifactKey: Guid(235005af7c9b4d44a989bf9433fb9426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Props/SA_Prop_Bloodstain_01_Convex.asset using Guid(235005af7c9b4d44a989bf9433fb9426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34c0fc35009a4302c4e0adc7248f84a') in 0.022369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.808847 seconds.
+  path: Assets/Materials/RedHealth.mat
+  artifactKey: Guid(8ea85ba562a02844faab9d32bec96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RedHealth.mat using Guid(8ea85ba562a02844faab9d32bec96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a166fac6f36245dc6f8ffc41989e6d') in 0.017626 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

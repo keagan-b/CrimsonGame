@@ -38,6 +38,8 @@ public class PlayerController : NetworkBehaviour
 
     void FixedUpdate()
     {
+        healthBar.SetHealth(health);
+
         if (!isLocalPlayer) { return; }
 
         if (health <= 0 && !isDead) // death
@@ -46,24 +48,12 @@ public class PlayerController : NetworkBehaviour
 
             characterAnimator.SetBool("Death_b", true);
             characterAnimator.SetInteger("DeathType_int", Random.Range(1, 3));
-            playerCam.enabled = false;
+
             return;
-        }
-        else if (isDead && health >= 100) // revival
-        {
-            isDead = false;
-            characterAnimator.SetBool("Death_b", false);
-            characterAnimator.Play("Alive");
-            GameObject[] players = GameManager.players;
-            foreach (GameObject player in players)
-            {
-                PlayerController controller = player.GetComponent<PlayerController>();
-                controller.playerCam.enabled = false;
-            }
         }
         else if (isDead && health <= 0) // spectator system
         {
-            GameObject[] players = GameManager.livingPlayers;
+            GameObject[] players = GameManager.singleton.livingPlayers;
             int prevCamera = spectatorCamera;
 
             if (Input.GetKeyDown(KeyCode.A))
@@ -84,9 +74,8 @@ public class PlayerController : NetworkBehaviour
             players[prevCamera].GetComponent<PlayerController>().playerCam.enabled = false;
             players[spectatorCamera].GetComponent<PlayerController>().playerCam.enabled = true;
 
+            return;
         }
-
-        healthBar.SetHealth(health);
 
         // movement handler
         float h = Input.GetAxisRaw("Horizontal");
@@ -112,8 +101,9 @@ public class PlayerController : NetworkBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
-            float angle = Mathf.Atan2(hit.point.x, hit.point.z) * Mathf.Rad2Deg;
-            modelParent.transform.localRotation = Quaternion.Euler(0, angle, 0);
+            //float angle = Mathf.Atan2(hit.point.x, hit.point.z) * Mathf.Rad2Deg;
+            //modelParent.transform.localRotation = Quaternion.Euler(0, angle, 0);
+            modelParent.transform.LookAt(new Vector3(hit.point.x, modelParent.transform.y, hit.point.z));
         }
 
         // attack handler
@@ -121,15 +111,39 @@ public class PlayerController : NetworkBehaviour
         {
             if (attackCooldown <= Time.time)
             {
-                GameObject bullet = Instantiate(bulletPrefab);
-                bullet.transform.position = raycastPoint.transform.position;
-
-                bullet.GetComponent<Rigidbody>().AddForce(new Vector3(hit.point.x, bullet.transform.position.y, hit.point.z) * 750);
-                bullet.GetComponent<BulletHandler>().damage = damage;
-
-                NetworkServer.Spawn(bullet);
+                CmdSpawnBullet(hit.point, raycastPoint.transform.position, damage);
                 attackCooldown = Time.time + attackSpeed;
             }
         }
+    }
+
+    public void Revive(float reviveHealth)
+    {
+        isDead = false;
+        health = reviveHealth;
+        characterAnimator.SetBool("Death_b", false);
+        characterAnimator.Play("Alive");
+
+        if (!isLocalPlayer) { return; }
+
+        GameObject[] players = GameManager.singleton.livingPlayers;
+        foreach (GameObject player in players)
+        {
+            PlayerController controller = player.GetComponent<PlayerController>();
+            controller.playerCam.enabled = false;
+        }
+        playerCam.enabled = true;
+    }
+
+    [Command]
+    void CmdSpawnBullet(Vector3 hitPoint, Vector3 raycast, float damage)
+    {
+        GameObject bullet = Instantiate(bulletPrefab);
+        bullet.transform.position = raycast;
+
+        bullet.GetComponent<Rigidbody>().AddForce(new Vector3(hitPoint.x, bullet.transform.position.y, hitPoint.z) * 750);
+        bullet.GetComponent<BulletHandler>().damage = damage;
+
+        NetworkServer.Spawn(bullet);
     }
 }

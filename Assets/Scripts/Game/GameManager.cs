@@ -5,32 +5,46 @@ using Mirror;
 
 public class GameManager : NetworkBehaviour
 {
-    public GameObject enemyPrefab;
-    public static GameObject[] players;
-    public static GameObject[] livingPlayers;
+    [HideInInspector]
+    public static GameManager singleton;
 
-    public static List<GameObject> zombies = new List<GameObject>();
-    public static Camera levelCamera;
+    public GameObject enemyPrefab;
+    public GameObject[] players;
+    public GameObject[] livingPlayers;
 
     [SyncVar]
-    public int round = 0;
+    public List<GameObject> zombies = new List<GameObject>();
+
+    [SyncVar]
+    public int round = 1;
 
     private int remainingSpawns = 1;
     private float spawnSpeed = 1f;
     private float spawnCooldown = 0f;
 
+    public float roundInterval = 5f;
+    private float roundCooldown = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
+        if (singleton != this)
+        {
+            singleton = this;
+        }
         if (!isServer) { return; }
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!isServer) { return; }
         players = GameObject.FindGameObjectsWithTag("Player");
         livingPlayers = GetLivingPlayers();
+
+        if (roundCooldown >= Time.time || !isServer)
+        {
+            return;
+        }
 
         bool allDead = true;
         foreach (GameObject player in players)
@@ -66,14 +80,10 @@ public class GameManager : NetworkBehaviour
         if (playerWin)
         {
             Debug.Log("Round finished!");
-            round++;
-            foreach (GameObject player in players)
-            {
-                PlayerController controller = player.GetComponent<PlayerController>();
-                controller.health = 100f;
-                controller.isDead = false;
-            }
 
+            ReviveAll();
+            round++;
+            roundCooldown = Time.time + roundInterval;
             remainingSpawns = (int)Mathf.Ceil(Random.Range(1f, 2.5f) * round);
         }
         else
@@ -82,8 +92,13 @@ public class GameManager : NetworkBehaviour
             foreach (GameObject zombie in zombies)
             {
                 Destroy(zombie);
-                round = 0;
             }
+            ReviveAll();
+            zombies.Clear();
+
+            round = 1;
+            remainingSpawns = 1;
+            roundCooldown = Time.time + roundInterval;
         }
     }
 
@@ -98,6 +113,14 @@ public class GameManager : NetworkBehaviour
         zombies.Add(zombie);
 
         NetworkServer.Spawn(zombie);
+    }
+
+    public void ReviveAll()
+    {
+        foreach (GameObject player in players)
+        {
+            player.GetComponent<PlayerController>().Revive(100f);
+        }
     }
 
     public GameObject[] GetLivingPlayers()

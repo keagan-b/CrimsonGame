@@ -10,6 +10,8 @@ public class EnemyController : NetworkBehaviour
     public HealthBarController healthBar;
     public NavMeshAgent navAgent;
     public GameObject[] zombieModels;
+
+    [SyncVar]
     public int modelID;
     public float damage = 10f;
 
@@ -39,18 +41,20 @@ public class EnemyController : NetworkBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        healthBar.SetHealth(health);
+
         if (!isServer) { return; }
 
         if (health <= 0)
         {
-            GameManager.zombies.Remove(gameObject);
+            GameManager.singleton.zombies.Remove(gameObject);
             Destroy(gameObject);
         }
 
         // find nearest player
         float min = float.MaxValue;
         Vector3 closestPlayer = new();
-        foreach (GameObject player in GameManager.livingPlayers)
+        foreach (GameObject player in GameManager.singleton.livingPlayers)
         {
             float distance = Vector3.Distance(gameObject.transform.position, player.transform.position);
             if (distance < min)
@@ -69,8 +73,6 @@ public class EnemyController : NetworkBehaviour
         {
             modelParent.transform.LookAt(closestPlayer);
         }
-
-        healthBar.SetHealth(health);
     }
 
     private void OnTriggerStay(Collider collision)
