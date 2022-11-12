@@ -44,11 +44,7 @@ public class PlayerController : NetworkBehaviour
 
         if (health <= 0 && !isDead) // death
         {
-            isDead = true;
-
-            characterAnimator.SetBool("Death_b", true);
-            characterAnimator.SetInteger("DeathType_int", Random.Range(1, 3));
-
+            CmdMarkDead();
             return;
         }
         else if (isDead && health <= 0) // spectator system
@@ -84,11 +80,11 @@ public class PlayerController : NetworkBehaviour
         // animation controls
         if ((h != 0 || v != 0) && characterAnimator != null)
         {
-            characterAnimator.SetFloat("Speed_f", 0.26f);
+            CmdWalkAnimation();
         }
         else if (characterAnimator != null)
         {
-            characterAnimator.SetFloat("Speed_f", 0f);
+            CmdIdleAnimation();
         }
 
         characterController.Move(new Vector3((h * speed), 0, (v * speed)));
@@ -145,5 +141,26 @@ public class PlayerController : NetworkBehaviour
         bh.target = new Vector3(hitPoint.x, raycast.y, hitPoint.z);
 
         NetworkServer.Spawn(bullet);
+    }
+
+    [Command]
+    void CmdMarkDead()
+    {
+        isDead = true;
+
+        characterAnimator.SetBool("Death_b", true);
+        characterAnimator.SetInteger("DeathType_int", Random.Range(1, 3));
+    }
+
+    [Command]
+    void CmdWalkAnimation()
+    {
+        characterAnimator.SetFloat("Speed_f", 0.26f);
+    }
+
+    [Command]
+    void CmdIdleAnimation()
+    {
+        characterAnimator.SetFloat("Speed_f", 0f);
     }
 }

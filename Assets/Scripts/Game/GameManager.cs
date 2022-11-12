@@ -9,7 +9,9 @@ public class GameManager : NetworkBehaviour
     public static GameManager singleton;
 
     public GameObject enemyPrefab;
+
     public GameObject[] players;
+
     public GameObject[] livingPlayers;
 
     [SyncVar]

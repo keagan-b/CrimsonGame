@@ -32,8 +32,7 @@ public class EnemyController : NetworkBehaviour
         animator = model.GetComponent<Animator>();
         NetworkAnimator netAnim = gameObject.AddComponent<NetworkAnimator>();
         netAnim.animator = animator;
-        netAnim.clientAuthority = true;
-        netAnim.syncDirection = SyncDirection.ClientToServer;
+        netAnim.syncDirection = SyncDirection.ServerToClient;
 
         healthBar.fullHealth = health;
     }
