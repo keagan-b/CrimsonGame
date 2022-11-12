@@ -101,13 +101,11 @@ public class PlayerController : NetworkBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
-            //float angle = Mathf.Atan2(hit.point.x, hit.point.z) * Mathf.Rad2Deg;
-            //modelParent.transform.localRotation = Quaternion.Euler(0, angle, 0);
-            modelParent.transform.LookAt(new Vector3(hit.point.x, modelParent.transform.y, hit.point.z));
+            modelParent.transform.LookAt(new Vector3(hit.point.x, modelParent.transform.position.y, hit.point.z));
         }
 
         // attack handler
-        if (Input.GetMouseButton(0)) 
+        if (Input.GetMouseButton(0))
         {
             if (attackCooldown <= Time.time)
             {
@@ -141,8 +139,10 @@ public class PlayerController : NetworkBehaviour
         GameObject bullet = Instantiate(bulletPrefab);
         bullet.transform.position = raycast;
 
-        bullet.GetComponent<Rigidbody>().AddForce(new Vector3(hitPoint.x, bullet.transform.position.y, hitPoint.z) * 750);
-        bullet.GetComponent<BulletHandler>().damage = damage;
+        BulletHandler bh = bullet.GetComponent<BulletHandler>();
+
+        bh.damage = damage;
+        bh.target = new Vector3(hitPoint.x, raycast.y, hitPoint.z);
 
         NetworkServer.Spawn(bullet);
     }

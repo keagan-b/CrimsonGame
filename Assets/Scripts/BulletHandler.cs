@@ -5,7 +5,10 @@ using Mirror;
 
 public class BulletHandler : NetworkBehaviour
 {
-    public float duration = 10f;
+    public Vector3 target;
+    Vector3 normalized;
+    public float speed = 10f;
+    public float duration = 5f;
     float despawnTime;
 
     public float damage = 100f;
@@ -14,6 +17,7 @@ public class BulletHandler : NetworkBehaviour
     void Start()
     {
         despawnTime = Time.time + duration;
+        normalized = (target - transform.position).normalized;
     }
 
     // Update is called once per frame
@@ -23,6 +27,8 @@ public class BulletHandler : NetworkBehaviour
         {
             Destroy(gameObject);
         }
+
+        transform.position += normalized * speed * Time.deltaTime;
     }
 
     private void OnTriggerEnter(Collider collision)
