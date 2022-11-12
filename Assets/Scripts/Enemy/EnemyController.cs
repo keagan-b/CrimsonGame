@@ -7,6 +7,7 @@ using UnityEngine.AI;
 public class EnemyController : NetworkBehaviour
 {
     public GameObject modelParent;
+    public HealthBarController healthBar;
     public NavMeshAgent navAgent;
     public GameObject[] zombieModels;
     public int modelID;
@@ -31,6 +32,8 @@ public class EnemyController : NetworkBehaviour
         netAnim.animator = animator;
         netAnim.clientAuthority = true;
         netAnim.syncDirection = SyncDirection.ClientToServer;
+
+        healthBar.fullHealth = health;
     }
 
     // Update is called once per frame
@@ -46,7 +49,7 @@ public class EnemyController : NetworkBehaviour
 
         // find nearest player
         float min = float.MaxValue;
-        Vector3 closestPlayer = new Vector3();
+        Vector3 closestPlayer = new();
         foreach (GameObject player in GameManager.livingPlayers)
         {
             float distance = Vector3.Distance(gameObject.transform.position, player.transform.position);
@@ -59,11 +62,15 @@ public class EnemyController : NetworkBehaviour
 
         navAgent.SetDestination(closestPlayer);
 
+        modelParent.transform.localRotation = gameObject.transform.rotation;
+        gameObject.transform.rotation = new();
+
         if (min > 1)
         {
-            gameObject.transform.LookAt(closestPlayer);
+            modelParent.transform.LookAt(closestPlayer);
         }
 
+        healthBar.SetHealth(health);
     }
 
     private void OnTriggerStay(Collider collision)

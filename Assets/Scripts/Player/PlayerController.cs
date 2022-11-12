@@ -11,6 +11,7 @@ public class PlayerController : NetworkBehaviour
     public GameObject characterModel;
     public GameObject raycastPoint;
     public GameObject bulletPrefab;
+    public HealthBarController healthBar;
 
     public float speed = 1f;
 
@@ -23,6 +24,7 @@ public class PlayerController : NetworkBehaviour
 
     private int spectatorCamera = 0;
 
+    public float damage = 100f;
     public float attackSpeed = 0.3f;
     private float attackCooldown = 0f;
 
@@ -31,6 +33,7 @@ public class PlayerController : NetworkBehaviour
         if (!isLocalPlayer) { playerCam.enabled = false; playerCam.GetComponent<AudioListener>().enabled = false; }
 
         characterAnimator = characterModel.GetComponent<Animator>();
+        healthBar.fullHealth = health;
     }
 
     void FixedUpdate()
@@ -83,7 +86,8 @@ public class PlayerController : NetworkBehaviour
 
         }
 
-        
+        healthBar.SetHealth(health);
+
         // movement handler
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
@@ -121,6 +125,7 @@ public class PlayerController : NetworkBehaviour
                 bullet.transform.position = raycastPoint.transform.position;
 
                 bullet.GetComponent<Rigidbody>().AddForce(new Vector3(hit.point.x, bullet.transform.position.y, hit.point.z) * 750);
+                bullet.GetComponent<BulletHandler>().damage = damage;
 
                 NetworkServer.Spawn(bullet);
                 attackCooldown = Time.time + attackSpeed;
