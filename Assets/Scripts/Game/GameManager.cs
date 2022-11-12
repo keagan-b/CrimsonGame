@@ -14,14 +14,15 @@ public class GameManager : NetworkBehaviour
 
     [SyncVar]
     public int round = 0;
-    [SyncVar]
-    public int score = 0;
+
+    private int remainingSpawns = 1;
+    private float spawnSpeed = 1f;
+    private float spawnCooldown = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
         if (!isServer) { return; }
-        SpawnZombie(Vector3.zero);
     }
 
     // Update is called once per frame
@@ -36,6 +37,16 @@ public class GameManager : NetworkBehaviour
         {
             PlayerController controller = player.GetComponent<PlayerController>();
             if (!controller.isDead) { allDead = false; break; }
+        }
+
+        if (remainingSpawns > 0)
+        {
+            if (spawnCooldown <= Time.time)
+            {
+                SpawnZombie(Vector3.zero);
+                spawnCooldown = spawnSpeed + Time.time;
+                remainingSpawns--;
+            }
         }
 
         if (allDead)
@@ -55,13 +66,15 @@ public class GameManager : NetworkBehaviour
         if (playerWin)
         {
             Debug.Log("Round finished!");
-            score++;
+            round++;
             foreach (GameObject player in players)
             {
                 PlayerController controller = player.GetComponent<PlayerController>();
                 controller.health = 100f;
                 controller.isDead = false;
             }
+
+            remainingSpawns = (int)Mathf.Ceil(Random.Range(1f, 2.5f) * round);
         }
         else
         {
@@ -69,7 +82,6 @@ public class GameManager : NetworkBehaviour
             foreach (GameObject zombie in zombies)
             {
                 Destroy(zombie);
-                score = 0;
                 round = 0;
             }
         }

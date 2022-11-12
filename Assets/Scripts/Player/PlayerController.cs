@@ -9,6 +9,8 @@ public class PlayerController : NetworkBehaviour
     public CharacterController characterController;
     public GameObject modelParent;
     public GameObject characterModel;
+    public GameObject raycastPoint;
+    public GameObject bulletPrefab;
 
     public float speed = 1f;
 
@@ -20,6 +22,9 @@ public class PlayerController : NetworkBehaviour
     public bool isDead = false;
 
     private int spectatorCamera = 0;
+
+    public float attackSpeed = 0.3f;
+    private float attackCooldown = 0f;
 
     void Start()
     {
@@ -78,6 +83,7 @@ public class PlayerController : NetworkBehaviour
 
         }
 
+        
         // movement handler
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
@@ -104,6 +110,21 @@ public class PlayerController : NetworkBehaviour
         {
             float angle = Mathf.Atan2(hit.point.x, hit.point.z) * Mathf.Rad2Deg;
             modelParent.transform.localRotation = Quaternion.Euler(0, angle, 0);
+        }
+
+        // attack handler
+        if (Input.GetMouseButton(0)) 
+        {
+            if (attackCooldown <= Time.time)
+            {
+                GameObject bullet = Instantiate(bulletPrefab);
+                bullet.transform.position = raycastPoint.transform.position;
+
+                bullet.GetComponent<Rigidbody>().AddForce(new Vector3(hit.point.x, bullet.transform.position.y, hit.point.z) * 750);
+
+                NetworkServer.Spawn(bullet);
+                attackCooldown = Time.time + attackSpeed;
+            }
         }
     }
 }
