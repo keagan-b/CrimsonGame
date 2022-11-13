@@ -36,7 +36,7 @@ public class MainScreenController : MonoBehaviour
     public void UpdateHostPort()
     {
         ushort port;
-        if (ushort.TryParse(joinPort.text, out port))
+        if (ushort.TryParse(hostPort.text, out port))
         {
             networkManager.GetComponent<kcp2k.KcpTransport>().Port = port;
         }
