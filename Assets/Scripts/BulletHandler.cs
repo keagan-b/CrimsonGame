@@ -37,12 +37,22 @@ public class BulletHandler : NetworkBehaviour
         {
             CmdDoDamage(collision.gameObject, gameObject, damage);
         }
+        else if (collision.tag != "Player")
+        {
+            CmdDestroySelf(gameObject);
+        }
     }
 
     [Command(requiresAuthority = false)]
     void CmdDoDamage(GameObject enemy, GameObject bullet, float damage)
     {
         enemy.GetComponent<EnemyController>().health -= damage;
+        Destroy(bullet);
+    }
+
+    [Command(requiresAuthority=false)]
+    void CmdDestroySelf(GameObject bullet)
+    {
         Destroy(bullet);
     }
 }

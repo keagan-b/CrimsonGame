@@ -34,13 +34,16 @@ public class UIController : NetworkBehaviour
 
     public void SetName()
     {
+        Debug.Log("running name set!");
         CmdSetName(nameField.text.Substring(0, Mathf.Min(nameField.text.Length, 24)), NetworkClient.localPlayer.gameObject);
     }
 
     [Command(requiresAuthority=false)]
     void CmdSetName(string playerName, GameObject player)
     {
-        player.GetComponent<PlayerController>().SetNewName(playerName);
+        Debug.Log($"Setting name to {playerName}");
+        player.name = playerName;
+        player.GetComponent<PlayerController>().playerName = playerName;
     }
 
     // Update is called once per frame

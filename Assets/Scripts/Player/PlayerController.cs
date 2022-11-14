@@ -44,6 +44,12 @@ public class PlayerController : NetworkBehaviour
     {
         healthBar.SetHealth(health);
 
+        if (nametag.text != playerName)
+        {
+            Debug.Log("Changing Name!");
+            nametag.text = playerName;
+        }
+
         if (!isLocalPlayer) { return; }
 
         if (health <= 0 && !isDead) // death
@@ -122,6 +128,11 @@ public class PlayerController : NetworkBehaviour
         characterAnimator.SetBool("Death_b", false);
         characterAnimator.Play("Alive");
 
+        characterAnimator.transform.localPosition = new Vector3();
+
+        GetComponent<CharacterController>().enabled = true;
+        GetComponent<CapsuleCollider>().enabled = true;
+
         if (!isLocalPlayer) { return; }
 
         GameObject[] players = GameManager.singleton.livingPlayers;
@@ -131,12 +142,6 @@ public class PlayerController : NetworkBehaviour
             controller.playerCam.enabled = false;
         }
         playerCam.enabled = true;
-    }
-
-    public void SetNewName(string _playerName)
-    {
-        playerName = _playerName;
-        nametag.text = playerName;
     }
 
     [Command]
@@ -157,6 +162,9 @@ public class PlayerController : NetworkBehaviour
     void CmdMarkDead()
     {
         isDead = true;
+
+        GetComponent<CharacterController>().enabled = false;
+        GetComponent<CapsuleCollider>().enabled = false;
 
         characterAnimator.SetBool("Death_b", true);
         characterAnimator.SetInteger("DeathType_int", Random.Range(1, 3));
