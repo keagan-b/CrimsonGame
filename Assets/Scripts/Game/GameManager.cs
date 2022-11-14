@@ -83,8 +83,6 @@ public class GameManager : NetworkBehaviour
     {
         if (playerWin)
         {
-            Debug.Log("Round finished!");
-
             ReviveAll();
             round++;
             roundCooldown = Time.time + roundInterval;
@@ -92,11 +90,11 @@ public class GameManager : NetworkBehaviour
         }
         else
         {
-            Debug.Log("Game over.");
             foreach (GameObject zombie in zombies)
             {
                 Destroy(zombie);
             }
+
             ReviveAll();
             zombies.Clear();
 
@@ -113,6 +111,10 @@ public class GameManager : NetworkBehaviour
         EnemyController controller = zombie.GetComponent<EnemyController>();
 
         controller.modelID = Random.Range(0, controller.zombieModels.Length);
+        if (round > 1)
+        {
+            controller.health = 100 * (float)(round * Random.Range((float)round / 4, (float)round/2));
+        }
 
         zombies.Add(zombie);
 

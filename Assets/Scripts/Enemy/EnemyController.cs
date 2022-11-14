@@ -23,7 +23,7 @@ public class EnemyController : NetworkBehaviour
     private float attackCooldown = 0f;
     private Animator animator;
 
-    private void Awake()
+    private void Start()
     {
         GameObject model = zombieModels[modelID];
         model = Instantiate(model, modelParent.transform);
