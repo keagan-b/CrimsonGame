@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using Mirror;
 
 public class PlayerController : NetworkBehaviour
@@ -11,6 +12,7 @@ public class PlayerController : NetworkBehaviour
     public GameObject characterModel;
     public GameObject raycastPoint;
     public GameObject bulletPrefab;
+    public TextMeshPro nametag;
     public HealthBarController healthBar;
 
     public float speed = 1f;
@@ -21,6 +23,8 @@ public class PlayerController : NetworkBehaviour
     public float health = 100f;
     [SyncVar]
     public bool isDead = false;
+    [SyncVar]
+    public string playerName = "unnamed";
 
     private int spectatorCamera = 0;
 
@@ -127,6 +131,12 @@ public class PlayerController : NetworkBehaviour
             controller.playerCam.enabled = false;
         }
         playerCam.enabled = true;
+    }
+
+    public void SetNewName(string _playerName)
+    {
+        playerName = _playerName;
+        nametag.text = playerName;
     }
 
     [Command]

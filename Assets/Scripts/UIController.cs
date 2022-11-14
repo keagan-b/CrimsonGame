@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Mirror;
 
-public class UIController : MonoBehaviour
+public class UIController : NetworkBehaviour
 {
     public TextMeshProUGUI roundText;
     public TextMeshProUGUI zombiesRemaining;
-    public GameObject deathScreen, aliveScreen;
+    public TMP_InputField nameField;
+    public GameObject deathScreen, aliveScreen, pauseScreen;
 
     public static UIController singleton;
     void Start()
@@ -18,10 +20,45 @@ public class UIController : MonoBehaviour
         }
     }
 
+    public void Disconnect()
+    {
+        if (isServer)
+        {
+            NetworkManager.singleton.StopHost();
+        }
+        else
+        {
+            NetworkManager.singleton.StopClient();
+        }
+    }
+
+    public void SetName()
+    {
+        CmdSetName(nameField.text.Substring(0, Mathf.Min(nameField.text.Length, 24)), NetworkClient.localPlayer.gameObject);
+    }
+
+    [Command(requiresAuthority=false)]
+    void CmdSetName(string playerName, GameObject player)
+    {
+        player.GetComponent<PlayerController>().SetNewName(playerName);
+    }
+
     // Update is called once per frame
     void Update()
     {
         roundText.text = "Round " + GameManager.singleton.round;
         zombiesRemaining.text = GameManager.singleton.zombies.Count + " Left";
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pauseScreen.activeInHierarchy)
+            {
+                pauseScreen.SetActive(false);
+            }
+            else
+            {
+                pauseScreen.SetActive(true);
+            }
+        }
     }
 }
