@@ -14,6 +14,8 @@ public class GameManager : NetworkBehaviour
 
     public GameObject[] livingPlayers;
 
+    public GameObject[] zombieSpawners;
+
     [SyncVar]
     public List<GameObject> zombies = new List<GameObject>();
 
@@ -59,7 +61,7 @@ public class GameManager : NetworkBehaviour
         {
             if (spawnCooldown <= Time.time)
             {
-                SpawnZombie(Vector3.zero);
+                SpawnZombie();
                 spawnCooldown = spawnSpeed + Time.time;
                 remainingSpawns--;
             }
@@ -104,10 +106,10 @@ public class GameManager : NetworkBehaviour
         }
     }
 
-    public void SpawnZombie(Vector3 spawnPos)
+    public void SpawnZombie()
     {
         GameObject zombie = Instantiate(enemyPrefab);
-        zombie.transform.position = spawnPos;
+        zombie.transform.position = zombieSpawners[Random.Range(0, zombieSpawners.Length)].transform.position;
         EnemyController controller = zombie.GetComponent<EnemyController>();
 
         controller.modelID = Random.Range(0, controller.zombieModels.Length);

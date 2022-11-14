@@ -835,3 +835,721 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 307.069120 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_02_Convex.asset
+  artifactKey: Guid(1e5d1efb7ba471042ac122fb2b2d14bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_02_Convex.asset using Guid(1e5d1efb7ba471042ac122fb2b2d14bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1d32d70c030a25b6ab8dea4bff6e70') in 0.179345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_GrassSection_Raised_01_Convex.asset
+  artifactKey: Guid(3568a789cb159844d965b01d150a712a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_GrassSection_Raised_01_Convex.asset using Guid(3568a789cb159844d965b01d150a712a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21034cf1a8c707e32eef91924f02c4e') in 0.027550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Pond_01_Convex.asset
+  artifactKey: Guid(98b18646ef595634f83576f4f8f4f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Pond_01_Convex.asset using Guid(98b18646ef595634f83576f4f8f4f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4866e395f6045e6d0f5a3b5413cdc5a') in 0.018645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_GrassSection_01_Convex.asset
+  artifactKey: Guid(f85301c3969c29a498acd8efb4278823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_GrassSection_01_Convex.asset using Guid(f85301c3969c29a498acd8efb4278823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884395507c62bc00a78425edec3e4455') in 0.018629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_02_Convex.asset
+  artifactKey: Guid(8a4579ef9a6c98044a6c202c2e8e2929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_02_Convex.asset using Guid(8a4579ef9a6c98044a6c202c2e8e2929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d795417515305bf97cb3e7544a09582') in 0.020163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ManholeClosed_Convex.asset
+  artifactKey: Guid(333aa012807554240ae4dcffe23b5791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ManholeClosed_Convex.asset using Guid(333aa012807554240ae4dcffe23b5791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1c4827d5c0a33afebd80d5e8707607') in 0.018780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadLane_Straight_01_Convex.asset
+  artifactKey: Guid(6e2ace2b9d27c5f42b09a29180b0aa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadLane_Straight_01_Convex.asset using Guid(6e2ace2b9d27c5f42b09a29180b0aa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b592124368b04f462aebb35a54d7bed') in 0.017051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Concrete_Convex.asset
+  artifactKey: Guid(cfd2dd401ea217646a3dc13b0ec81068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Concrete_Convex.asset using Guid(cfd2dd401ea217646a3dc13b0ec81068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a6dfc43de2488eda33d5b1d10857f4') in 0.019989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_04_Convex.asset
+  artifactKey: Guid(d3c2684417757e44a807d16e024289d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_04_Convex.asset using Guid(d3c2684417757e44a807d16e024289d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a213f412cb6309bb9c2856d71c3eec') in 0.016330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_InnerCorner_01_Convex.asset
+  artifactKey: Guid(b346978fd7f0e6848b99f142848cdae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_ENV_BeachSection_InnerCorner_01_Convex.asset using Guid(b346978fd7f0e6848b99f142848cdae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e58837bb18bcbd5c5e0e6febf948b1') in 0.032504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_Bend_Left_Damaged_01_Convex.asset
+  artifactKey: Guid(686b062011b64e647bee940ca5b7e78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_Bend_Left_Damaged_01_Convex.asset using Guid(686b062011b64e647bee940ca5b7e78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a79e1ea8c2225e9ce8922d5badb27d') in 0.018613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Campsite_01_Convex.asset
+  artifactKey: Guid(0390598f4cccfc146ab4576c3ee2d40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Campsite_01_Convex.asset using Guid(0390598f4cccfc146ab4576c3ee2d40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f8a316044299ecb40c6194fcddb999') in 0.019347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Court_Convex.asset
+  artifactKey: Guid(734103aa5e713364ea89384829ebca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Court_Convex.asset using Guid(734103aa5e713364ea89384829ebca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929d00501758dcc58162bf5ef61c925c') in 0.017278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_Corner_01_Convex.asset
+  artifactKey: Guid(e7835fabf12519a4a9822f8887f022c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_Corner_01_Convex.asset using Guid(e7835fabf12519a4a9822f8887f022c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b57e1fa73236c1f0ad8b33de678b93') in 0.022865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_01_Convex.asset
+  artifactKey: Guid(bd81424d608534e4eabc2d9fe2fa9ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_01_Convex.asset using Guid(bd81424d608534e4eabc2d9fe2fa9ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a953d4bf205f28537c00bd9c03e39d') in 0.021695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_03_Convex.asset
+  artifactKey: Guid(a176107725608be4980252e8b8956758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_03_Convex.asset using Guid(a176107725608be4980252e8b8956758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107ba615e923683ed3bacf94015000d4') in 0.022759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_DesertSquare_01_Convex.asset
+  artifactKey: Guid(db1c320765f305148a78a293bd8b5401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_DesertSquare_01_Convex.asset using Guid(db1c320765f305148a78a293bd8b5401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5165510554a9f611497eb123e12513') in 0.016899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_CornerLines_01_Convex.asset
+  artifactKey: Guid(81539b7678b52314aa924f2c14382ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_CornerLines_01_Convex.asset using Guid(81539b7678b52314aa924f2c14382ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6017c8c5a0a87631339a92cfbbe72998') in 0.017288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_Square_01_Convex.asset
+  artifactKey: Guid(925b020bb8baa9f439b84acd0ce72b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_Square_01_Convex.asset using Guid(925b020bb8baa9f439b84acd0ce72b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2389a5c9c258c0a86c8b2b5e141fd6c') in 0.022084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Pond_03_Convex.asset
+  artifactKey: Guid(93cc6a7fc00754e449da8af340e68597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Pond_03_Convex.asset using Guid(93cc6a7fc00754e449da8af340e68597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50378c9018b22ac8a29880988cbf563d') in 0.016279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadLane_NoLines_straight_01_Convex.asset
+  artifactKey: Guid(c80761e470eb45e42a1f11e918d814de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadLane_NoLines_straight_01_Convex.asset using Guid(c80761e470eb45e42a1f11e918d814de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e298a21a809fa05671313c2e82894ece') in 0.021417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_02_Convex.asset
+  artifactKey: Guid(b9d2cdc4e1b7d87438b4a431813f9ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_02_Convex.asset using Guid(b9d2cdc4e1b7d87438b4a431813f9ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1867ccfd1a6fd0e11cf74731b65afd') in 0.018267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ManholeOpen_Convex.asset
+  artifactKey: Guid(1d1cb33f75a537d4f8c253e2bbf240b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ManholeOpen_Convex.asset using Guid(1d1cb33f75a537d4f8c253e2bbf240b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc52c6146793c70fd29ab91ddd265ff') in 0.024555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_04_Convex.asset
+  artifactKey: Guid(acb1faa1f1d910448b691808d49def2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Highway_Broken_04_Convex.asset using Guid(acb1faa1f1d910448b691808d49def2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973c0e1b94e6d25fc7974b5dcdc85c49') in 0.023749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_01_Convex.asset
+  artifactKey: Guid(ff614e829b52f29479765130b936697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_01_Convex.asset using Guid(ff614e829b52f29479765130b936697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98aa306f8e103e582667ae28bf7eb98') in 0.021965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Path_Driveway_01_Convex.asset
+  artifactKey: Guid(9739424199043e944acebe026b630980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Path_Driveway_01_Convex.asset using Guid(9739424199043e944acebe026b630980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b3eafe5bf78d7b5d0d66f966c10987') in 0.020143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_06_Convex.asset
+  artifactKey: Guid(34ec4caac6324e847abd98742f7da323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_06_Convex.asset using Guid(34ec4caac6324e847abd98742f7da323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f748aef9baa6591ee915ba2d320b05') in 0.018076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_05_Convex.asset
+  artifactKey: Guid(cad963577dd682648a79b1e4305f4ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_RoadStraight_Damaged_05_Convex.asset using Guid(cad963577dd682648a79b1e4305f4ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306d7c57f47d0c623cbb8ef261104a85') in 0.017031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_T_01_Convex.asset
+  artifactKey: Guid(cd4db3bf57b11e74d8e3e079c4757e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_Road_T_01_Convex.asset using Guid(cd4db3bf57b11e74d8e3e079c4757e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210437b420e5b26f03e2dc24780459fa') in 0.016427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle_Convex.asset
+  artifactKey: Guid(8bcb218c9a226764390d2080fc604236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_DirtCircle_Convex.asset using Guid(8bcb218c9a226764390d2080fc604236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da257cba6675cdfa73088085aa9f69aa') in 0.020122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_03_Convex.asset
+  artifactKey: Guid(a06f027608ec1b84ab11f5c7428e9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Environment/SA_Env_ForestTile_03_Convex.asset using Guid(a06f027608ec1b84ab11f5c7428e9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25288f6fc2a894ea9bbdfda2ff39f70') in 0.019005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.063334 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_03_Convex.asset
+  artifactKey: Guid(2f2fdebf07edc074da79e36609a8862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Building_Damaged_03_Convex.asset using Guid(2f2fdebf07edc074da79e36609a8862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c40b27e0bd020ee16ca8ae78ff61e96') in 0.022278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_BurntHouse_01_Convex.asset
+  artifactKey: Guid(2249d34e09f9fa6488b4405c12e8e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_BurntHouse_01_Convex.asset using Guid(2249d34e09f9fa6488b4405c12e8e026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba4c971c4bb7a5f4db644d8e9b9c934') in 0.021120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_Damaged_01_Convex.asset
+  artifactKey: Guid(db57652f010d2ca47b542808cce08c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_Damaged_01_Convex.asset using Guid(db57652f010d2ca47b542808cce08c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d2fc308520aa518095a481425bc905') in 0.022096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_04_Convex.asset
+  artifactKey: Guid(47d48988072097047a882f1996f855e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_04_Convex.asset using Guid(47d48988072097047a882f1996f855e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d82e0ab420bc4307bd8dc50050c53cd') in 0.023110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_04_Convex 1.asset
+  artifactKey: Guid(e18d27b6b35c75c4087873d2672ded30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_04_Convex 1.asset using Guid(e18d27b6b35c75c4087873d2672ded30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6527008c80142733d1965f55b8bd48') in 0.052455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_Damaged_02_Convex.asset
+  artifactKey: Guid(dd7d82094f812ff439b1a1bb66652ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_Damaged_02_Convex.asset using Guid(dd7d82094f812ff439b1a1bb66652ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e2d629f0825df53289b743d1a8768e') in 0.017099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_SideBuilding_01_Convex.asset
+  artifactKey: Guid(101b31372d74c2e4b879f60da14ee49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_SideBuilding_01_Convex.asset using Guid(101b31372d74c2e4b879f60da14ee49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e009f3a71533c49cf4cc8acd51c87fe9') in 0.016700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeBlue_04_Convex.asset
+  artifactKey: Guid(e1061e86342bd724d8f5c5e2b22ee573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeBlue_04_Convex.asset using Guid(e1061e86342bd724d8f5c5e2b22ee573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc10eb0091f0932f717948800b8f1cc3') in 0.017201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeGrey_03_Convex.asset
+  artifactKey: Guid(40fd9604433eddf418c65659a1c79913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeGrey_03_Convex.asset using Guid(40fd9604433eddf418c65659a1c79913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dc865eb55407885d6bd4316191b979') in 0.044935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_03_Convex 1.asset
+  artifactKey: Guid(78c6696559defbd478cb233b1978e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_03_Convex 1.asset using Guid(78c6696559defbd478cb233b1978e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e139f116e4ba732c33b1aa5dcad3cc') in 0.057600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_04_Convex.asset
+  artifactKey: Guid(69deb638f29ae0345969c4f8578bffbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_04_Convex.asset using Guid(69deb638f29ae0345969c4f8578bffbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04db0ec1aef2bcdbfeccd1fc9537800d') in 0.020623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_Sign_01_Convex.asset
+  artifactKey: Guid(22ada0953ddf93748a278ae8df5e7eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_Sign_01_Convex.asset using Guid(22ada0953ddf93748a278ae8df5e7eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416e0f2c3a388e9aeec18cffe46c58ea') in 0.025345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeGrey_01_Convex.asset
+  artifactKey: Guid(001c7cc9460bb444490f1e9b51f548ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeGrey_01_Convex.asset using Guid(001c7cc9460bb444490f1e9b51f548ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6186a6a95fe1a09f70ebddace9333790') in 0.022415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeBlue_04_Convex 1.asset
+  artifactKey: Guid(c8860e8873023344792670c320cfbbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeBlue_04_Convex 1.asset using Guid(c8860e8873023344792670c320cfbbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0dd734e780fa99810ae1f31850a3ad') in 0.066465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerSmall_Rubble_01_Convex.asset
+  artifactKey: Guid(512cbe7b36ba03c43971dc68188e391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_CoolingTowerSmall_Rubble_01_Convex.asset using Guid(512cbe7b36ba03c43971dc68188e391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98a70ca767df5ebcb22705649e5cd90') in 0.017178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex 1.asset
+  artifactKey: Guid(04dee7d497fc15d48819ca01dfa96d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex 1.asset using Guid(04dee7d497fc15d48819ca01dfa96d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bd01185ab0f9c4bd95d8535b1b1846') in 0.101629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_02_Convex 1.asset
+  artifactKey: Guid(cc6cf81944b5b464cbff4941b464764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_02_Convex 1.asset using Guid(cc6cf81944b5b464cbff4941b464764b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6621b5425846c54646fdce2b4473aec1') in 0.048128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006039 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_01_Convex.asset
+  artifactKey: Guid(2b0976e9ac689944d92cef398d0e1c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_01_Convex.asset using Guid(2b0976e9ac689944d92cef398d0e1c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca404269b4da5952a93966817747b7b0') in 0.017159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007660 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_SideBuilding_Damaged_01_Convex.asset
+  artifactKey: Guid(8ea591e985c034e4ba977c2c99d1fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_SideBuilding_Damaged_01_Convex.asset using Guid(8ea591e985c034e4ba977c2c99d1fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cfcb3049d73dda2f8b3dfeb9fc3f1a') in 0.020262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_04_Convex.asset
+  artifactKey: Guid(2917f312bf7ef1b45a475c662b07c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_04_Convex.asset using Guid(2917f312bf7ef1b45a475c662b07c362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143af6297584f12a96c80466a7caabd6') in 0.023399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_04_Convex 1.asset
+  artifactKey: Guid(d4fdf7a35ad85764a9e43730580c467e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_04_Convex 1.asset using Guid(d4fdf7a35ad85764a9e43730580c467e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f5bd1e35bc2abced160b14badacf21') in 0.047096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseTall_Damaged_01_Convex 1.asset
+  artifactKey: Guid(713d4822e6f59ba47998d86cd1e2ae09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseTall_Damaged_01_Convex 1.asset using Guid(713d4822e6f59ba47998d86cd1e2ae09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d82055502d6d06fe54c0607a1c0d4f') in 0.061233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_Sign_01_Convex 1.asset
+  artifactKey: Guid(0f26b2a6d907a6640a9778f37800b463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Motel_Sign_01_Convex 1.asset using Guid(0f26b2a6d907a6640a9778f37800b463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88fc314cbfb3a6bd7c0e686ef13d51e') in 0.048841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_04_Convex 1.asset
+  artifactKey: Guid(e08ac48c20c2c9b418fdb9b2d6673c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_04_Convex 1.asset using Guid(e08ac48c20c2c9b418fdb9b2d6673c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430d08eb59cf9e1d40a66a5acc746ace') in 0.053135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_03_Convex.asset
+  artifactKey: Guid(cc5e03ff110162c4886c622caabbac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_03_Convex.asset using Guid(cc5e03ff110162c4886c622caabbac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e3f915df49d0426d6963564ad2d8c9') in 0.032238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_02_Convex.asset
+  artifactKey: Guid(118e1c0205442cc4f8d1bb137839f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_02_Convex.asset using Guid(118e1c0205442cc4f8d1bb137839f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e3c13619b1246d594703c902d9fb6b') in 0.020599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_Damaged_03_Convex.asset
+  artifactKey: Guid(7d73f1d8eff493e49ae87a054784b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_Damaged_03_Convex.asset using Guid(7d73f1d8eff493e49ae87a054784b1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be784ff550d4ca644dbf92cc29d3766f') in 0.026077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeGrey_01_Convex 1.asset
+  artifactKey: Guid(a8357fdd623243e438bd13295da9978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeGrey_01_Convex 1.asset using Guid(a8357fdd623243e438bd13295da9978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede5abad3e25e1d68ff486d7f8da3d3f') in 0.073987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_02_Convex.asset
+  artifactKey: Guid(31c5ca41d4b079347b46a5d8fafdbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_02_Convex.asset using Guid(31c5ca41d4b079347b46a5d8fafdbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8dc6054e7f59b66dbb1705747454e2') in 0.030071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_CoffeeShop_Damaged_01_Convex.asset
+  artifactKey: Guid(8b7d062bf1d462045be10b3cf42e6c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_CoffeeShop_Damaged_01_Convex.asset using Guid(8b7d062bf1d462045be10b3cf42e6c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8b88218147fc6b45435d266482081f') in 0.025173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Diner_Damaged_01_Convex.asset
+  artifactKey: Guid(36da1b4e2dbe7974b852ecfa27eab1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Diner_Damaged_01_Convex.asset using Guid(36da1b4e2dbe7974b852ecfa27eab1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb6a1d4d2fa4072bf29e513a5731f67') in 0.037090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalFountain_01_Convex.asset
+  artifactKey: Guid(ebe3812e89ef2484bbec69321e7fbaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalFountain_01_Convex.asset using Guid(ebe3812e89ef2484bbec69321e7fbaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bf10095b024b56076dabfc013407e3') in 0.025002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_Damaged_01_Convex.asset
+  artifactKey: Guid(dcc4016be9c0fd042a0c602cfe4d71d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalOffice_Damaged_01_Convex.asset using Guid(dcc4016be9c0fd042a0c602cfe4d71d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580092af17c6493143b41d1e8806dd7d') in 0.026582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Lighthouse_01_Convex.asset
+  artifactKey: Guid(d2a888ddf1d38cf44b9e6be0d5d70343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Lighthouse_01_Convex.asset using Guid(d2a888ddf1d38cf44b9e6be0d5d70343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0df7263a695200b82b3de5c9deeea2c') in 0.021727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_House_Damaged_01_Convex 1.asset
+  artifactKey: Guid(503e66155b0c3df478e4e08b5e03f88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_House_Damaged_01_Convex 1.asset using Guid(503e66155b0c3df478e4e08b5e03f88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f47a4eb4ef1dce00e33fb3a69212f37') in 0.056005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Office_Damaged_01_Convex 1.asset
+  artifactKey: Guid(521e38889a6c4694988d94032903d3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Office_Damaged_01_Convex 1.asset using Guid(521e38889a6c4694988d94032903d3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a17d41e2afb72dba9421cea10c2842') in 0.049410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_01_Convex 1.asset
+  artifactKey: Guid(6e6e53a5d6990a140a6c855e5a5af967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_01_Convex 1.asset using Guid(6e6e53a5d6990a140a6c855e5a5af967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af3547a5664502f065677d36ab14306') in 0.047695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Mall_Damaged_01_Convex.asset
+  artifactKey: Guid(1d77eef3d03f55745be0caf8cd69b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Mall_Damaged_01_Convex.asset using Guid(1d77eef3d03f55745be0caf8cd69b363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa2f9f265d2b7b4a96be2ec814c126c') in 0.028692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex 2.asset
+  artifactKey: Guid(e605ac7baffa8814f9a385fb8ef090a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingMain_Damaged_01_Convex 2.asset using Guid(e605ac7baffa8814f9a385fb8ef090a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe1afccd5bcf100eba6a5b1ed94fb82') in 0.175473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_01_Convex.asset
+  artifactKey: Guid(dc8203592a7436643b1f758456091a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseSmallA_Damaged_01_Convex.asset using Guid(dc8203592a7436643b1f758456091a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9ca53d938f972103269992514a0047') in 0.019976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.546708 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Closed.prefab
+  artifactKey: Guid(5b93a3a47089d8f44a1b8500b6707fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Closed.prefab using Guid(5b93a3a47089d8f44a1b8500b6707fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf50f89e1f44ef309435b741f4e9b356') in 0.047112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Army_Shotgun.prefab
+  artifactKey: Guid(b2b131297e001ff4b9e486d17091eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Army_Shotgun.prefab using Guid(b2b131297e001ff4b9e486d17091eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d736822a0fcaa176f7cb4a82dc8600') in 0.027279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Combat_Axe.prefab
+  artifactKey: Guid(852ce1242a9c8604bb7436d751283d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Combat_Axe.prefab using Guid(852ce1242a9c8604bb7436d751283d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67284e7a01ae563d9ace6ced6373d428') in 0.023283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Army_Submachine_Gun_Empty.prefab
+  artifactKey: Guid(b9f229248efa43c4ea3d9cafa4e83fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Army_Submachine_Gun_Empty.prefab using Guid(b9f229248efa43c4ea3d9cafa4e83fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd7e1e0c0ff40fe230f06b7c04f473e') in 0.020093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Compensator_For_Large_Caliber_Sniper_Rifle.prefab
+  artifactKey: Guid(8149efaaa14a1ec44bff4365b66065d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Compensator_For_Large_Caliber_Sniper_Rifle.prefab using Guid(8149efaaa14a1ec44bff4365b66065d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754f1643ed9301a49b117f382fe581bd') in 0.021164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Combat_Knife.prefab
+  artifactKey: Guid(0229435f4e13b84439e512e3421338fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Combat_Knife.prefab using Guid(0229435f4e13b84439e512e3421338fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cbde6930fd9aadbf8ed7d70744a7c8') in 0.020675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Rocket_Launchers_01.prefab
+  artifactKey: Guid(c1c2a30192b310b41940adad8e3a7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Rocket_Launchers_01.prefab using Guid(c1c2a30192b310b41940adad8e3a7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927adb09387dc0d578c04d5e12190419') in 0.020493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Collimator_Sight_B_03.prefab
+  artifactKey: Guid(8840430ba7b18774a9fb9f70fb867245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Collimator_Sight_B_03.prefab using Guid(8840430ba7b18774a9fb9f70fb867245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2d3c3654da4f06ac0bd91464dd3608') in 0.023133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Flashlight_01.prefab
+  artifactKey: Guid(d49153aff4b562b4f9035def41790acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Flashlight_01.prefab using Guid(d49153aff4b562b4f9035def41790acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d79a850845b694b62638ac314544525') in 0.027514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Assault_Shotgun.prefab
+  artifactKey: Guid(70a8eea5de30d77488a9b99ecd62c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Assault_Shotgun.prefab using Guid(70a8eea5de30d77488a9b99ecd62c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190fd5ca8eb1fa10c27969f32fb5c504') in 0.023108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Bandolier_Shotgun.prefab
+  artifactKey: Guid(803957015e445184faa0c1f557ea364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Bandolier_Shotgun.prefab using Guid(803957015e445184faa0c1f557ea364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489629a07e2470678606593e737f47b1') in 0.022364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Cabinet.prefab
+  artifactKey: Guid(702bade4c822af243befbe43e90402c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Cabinet.prefab using Guid(702bade4c822af243befbe43e90402c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b6b7b48dfd2620bb3361bf62848005') in 0.020350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Large_Magazine_For_Assault_Rifle_5,45.prefab
+  artifactKey: Guid(0816494e0b6171d4ea5f5a3a129a41c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Large_Magazine_For_Assault_Rifle_5,45.prefab using Guid(0816494e0b6171d4ea5f5a3a129a41c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbc4c6781b644a47e127b22075ea95d') in 0.020099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Assault_Rifle_5,56_Empty.prefab
+  artifactKey: Guid(f5a4e5cecab582840988e247ca61769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Assault_Rifle_5,56_Empty.prefab using Guid(f5a4e5cecab582840988e247ca61769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad2348b3340b7a3c1f0572af8c24dea') in 0.034640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Table_01.prefab
+  artifactKey: Guid(d55450ee6d6852643ad61cc5337d1819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Table_01.prefab using Guid(d55450ee6d6852643ad61cc5337d1819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b42317178dc06e81bb209d398dad633') in 0.026300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Mount_For_Assault_Rifle_9x39_01.prefab
+  artifactKey: Guid(6299d0ccc48e22347a6b9d00955b8de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Mount_For_Assault_Rifle_9x39_01.prefab using Guid(6299d0ccc48e22347a6b9d00955b8de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348bd53913e6dd62b69fe2c10f47f153') in 0.024458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Revolver.prefab
+  artifactKey: Guid(6e8e54e195fe39041a15a44479dcac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Revolver.prefab using Guid(6e8e54e195fe39041a15a44479dcac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d75fd8f54e83fec213b0cf00879c700') in 0.029968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Cabinet_01.prefab
+  artifactKey: Guid(fd9e82826e5b7794d90ee57f7a7ac633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Cabinet_01.prefab using Guid(fd9e82826e5b7794d90ee57f7a7ac633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1311134fbdb7bb3e1cc2bc2ebc0b7e') in 0.024462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine__For_Bulpam_Assault_Rifle.prefab
+  artifactKey: Guid(a077d45a601244640b4ca2da38cc223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine__For_Bulpam_Assault_Rifle.prefab using Guid(a077d45a601244640b4ca2da38cc223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff04cfa3b3f9fe2da537f96ac1c895fe') in 0.028348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Compensator_For_High_Precision_Sniper_Rifle.prefab
+  artifactKey: Guid(874626186c52c014991db4d5dcbdcb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Compensator_For_High_Precision_Sniper_Rifle.prefab using Guid(874626186c52c014991db4d5dcbdcb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972685c240207d16c5e5f84477cd7628') in 0.035394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_03.prefab
+  artifactKey: Guid(19d3120d92d3e0f4bab1bdef0e713c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_03.prefab using Guid(19d3120d92d3e0f4bab1bdef0e713c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e77098d829ba18596bfe77f1d03897') in 0.023036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Large_Caliber_Sniper_Rifle_02.prefab
+  artifactKey: Guid(f866361e96f12974fb77363bc0da9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Large_Caliber_Sniper_Rifle_02.prefab using Guid(f866361e96f12974fb77363bc0da9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a404c24cc4c656bbbb77a1efcfed6c') in 0.020292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Pistol_Grip_01_5.45.prefab
+  artifactKey: Guid(86105a979d8e6c948838d7b4502056a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Pistol_Grip_01_5.45.prefab using Guid(86105a979d8e6c948838d7b4502056a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afac7c3a95dfe39dc65ff9a443d56301') in 0.022198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Brake_Compensator_04.prefab
+  artifactKey: Guid(234b17ab82dd0d240b9dfa7ae31e8f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Brake_Compensator_04.prefab using Guid(234b17ab82dd0d240b9dfa7ae31e8f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e92a4b22accb198c851ee809e8e46') in 0.023921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Army_Submachine_Gun.prefab
+  artifactKey: Guid(302a54ee1b4303844b44b7d2477d4498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Army_Submachine_Gun.prefab using Guid(302a54ee1b4303844b44b7d2477d4498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bc7e9e187361c4871f20d37a0f0d93') in 0.022164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Collimator_Sight_B_01.prefab
+  artifactKey: Guid(59325158d2140a4428c7bc6d792cb605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Collimator_Sight_B_01.prefab using Guid(59325158d2140a4428c7bc6d792cb605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c129e902e761a143ff652a8ce67fd41') in 0.018762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Polymer_Handle.prefab
+  artifactKey: Guid(c65500b9cbc025c42b151a2ea986fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Polymer_Handle.prefab using Guid(c65500b9cbc025c42b151a2ea986fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de787ca6a1c5ca2536e589289839081c') in 0.025260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Open.prefab
+  artifactKey: Guid(e42c374ddb64d3849a27667cafddf585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Open.prefab using Guid(e42c374ddb64d3849a27667cafddf585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb80ebf1fa1f98ec2fa959df49fb630') in 0.021021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Police_Submachine_Gun.prefab
+  artifactKey: Guid(cc7ff68a603626944ba34199918b0c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Police_Submachine_Gun.prefab using Guid(cc7ff68a603626944ba34199918b0c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d65b1bc033622ed1a57aacef0ee75c0') in 0.020206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_High_Magnification_Sight.prefab
+  artifactKey: Guid(f5c4d1e32a8515e4f98615cb8c8dbb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_High_Magnification_Sight.prefab using Guid(f5c4d1e32a8515e4f98615cb8c8dbb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f1f852759f644adace2786f915fa83') in 0.022278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Forend_With_Picatinny_Rails_5.56_01.prefab
+  artifactKey: Guid(cd3125d51409cc443abffb194837ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Forend_With_Picatinny_Rails_5.56_01.prefab using Guid(cd3125d51409cc443abffb194837ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8905b80d3b07f2bdc2f841b9391a75') in 0.019661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Vertical_Handle_02.prefab
+  artifactKey: Guid(0b186ae48428a9b4b90b9a0f8a5e8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Vertical_Handle_02.prefab using Guid(0b186ae48428a9b4b90b9a0f8a5e8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156f4396f1625bb9e4d57833f7ea9a35') in 0.019810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Assault_Rifle_5,56.prefab
+  artifactKey: Guid(8d678a301c4cebb48ba03162a99f2ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Assault_Rifle_5,56.prefab using Guid(8d678a301c4cebb48ba03162a99f2ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc58835038f509eefa587fe40dab6c7') in 0.021024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Special_Submachine_Gun_Empty.prefab
+  artifactKey: Guid(6cc25e1b147c93248987a6b4e5deee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Special_Submachine_Gun_Empty.prefab using Guid(6cc25e1b147c93248987a6b4e5deee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd926e6a466b4ab422af16b29508511da') in 0.021305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_01.prefab
+  artifactKey: Guid(c1e4539cfca1fec4495964056cc1a523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_01.prefab using Guid(c1e4539cfca1fec4495964056cc1a523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42ef9573e02626f4dcbfaeba737e207') in 0.019367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Anti_Tank_Mine.prefab
+  artifactKey: Guid(871e2135edb99b848999b00f986d4674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Anti_Tank_Mine.prefab using Guid(871e2135edb99b848999b00f986d4674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c060a9c92e9f3d865145b759e331c3') in 0.019406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Laser_Designator.prefab
+  artifactKey: Guid(b691383c57397664f9001331ec6a95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Laser_Designator.prefab using Guid(b691383c57397664f9001331ec6a95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5396b7549ce3ca25b39e23a3946e9a64') in 0.021133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Flashlight_03.prefab
+  artifactKey: Guid(e1754429d56c4224797c12496c42b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Flashlight_03.prefab using Guid(e1754429d56c4224797c12496c42b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c300493bf3ecf74524ef1ecc9526994') in 0.023758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Army_Pistol_Empty.prefab
+  artifactKey: Guid(75684f6054a9a8143b92a740cc80a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Army_Pistol_Empty.prefab using Guid(75684f6054a9a8143b92a740cc80a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a27f0ef97d5e0ceb2bc15bd9ec823c') in 0.019649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_HuntingSniper_Rifle.prefab
+  artifactKey: Guid(1bc1ccab20aaf5e459700a490c6e7786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_HuntingSniper_Rifle.prefab using Guid(1bc1ccab20aaf5e459700a490c6e7786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8ead36b53d7a9439d4d97ba216f0d3') in 0.021666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Assault_Rifle_5,56.prefab
+  artifactKey: Guid(2306bfc90383443459d11f06834ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Assault_Rifle_5,56.prefab using Guid(2306bfc90383443459d11f06834ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd727ea0df30cc157fb8214b9567b8ac9') in 0.018076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Throwing_Knife.prefab
+  artifactKey: Guid(77753ddb47c54ee41b94f2c69c9bb7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Throwing_Knife.prefab using Guid(77753ddb47c54ee41b94f2c69c9bb7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d8714b02234558f920f06f31a53b69') in 0.018115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Paired_For_Assault_Rifle_5,45_Empty.prefab
+  artifactKey: Guid(8a5390bbed9748d48a577883b017fce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Paired_For_Assault_Rifle_5,45_Empty.prefab using Guid(8a5390bbed9748d48a577883b017fce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e053f90f403f7586540387d79097ff1') in 0.022437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Reflex_Sight.prefab
+  artifactKey: Guid(3cdff43a8004a164284623d5e39324c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Reflex_Sight.prefab using Guid(3cdff43a8004a164284623d5e39324c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0715662b5a012d9d4734c61346867679') in 0.021060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Large_Caliber_Sniper_Rifle.prefab
+  artifactKey: Guid(965e41490c2da774abbf80961957a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Large_Caliber_Sniper_Rifle.prefab using Guid(965e41490c2da774abbf80961957a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1dddb857b79b91a2a0c51b28311014') in 0.023562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Police_Gun.prefab
+  artifactKey: Guid(52d6cf4a91781124c9e4257c16cc3457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Police_Gun.prefab using Guid(52d6cf4a91781124c9e4257c16cc3457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a807094e1b189eb9831b2dd1c47ccb') in 0.025688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.736519 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Weapon_Stand_02.prefab
+  artifactKey: Guid(17db669fb5a4aae4db3af8b74f4d1d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Weapon_Stand_02.prefab using Guid(17db669fb5a4aae4db3af8b74f4d1d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562c1aace534fc9fd333edb0b3f0a6d9') in 0.028316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Wooden_Butt_01.prefab
+  artifactKey: Guid(47c447648940ed7459df0d5a298a4529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Wooden_Butt_01.prefab using Guid(47c447648940ed7459df0d5a298a4529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72817efca606510c6f9bc2cdbbde1e5a') in 0.022842 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

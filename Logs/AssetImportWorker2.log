@@ -1,0 +1,517 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 49081 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\Keagan\Unity\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Keagan/Unity/Projects/CrimsonGame
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52637
+Successfully changed project path to: C:/Users/Keagan/Unity/Projects/CrimsonGame
+C:/Users/Keagan/Unity/Projects/CrimsonGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 194.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Keagan/Unity/Projects/CrimsonGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
+    Vendor:   NVIDIA
+    VRAM:     12116 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014335 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 160.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1079ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015566 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1902ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1530ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (788ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (111.5 KB). Loaded Objects now: 4190.
+Memory consumption went from 131.7 MB to 131.6 MB.
+Total: 7.915100 ms (FindLiveObjects: 0.573500 ms CreateObjectMapping: 0.278500 ms MarkObjects: 6.312800 ms  DeleteObjects: 0.747600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 418843.897984 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_Damaged_03_Convex 1.asset
+  artifactKey: Guid(f39faf60d965a094793b21aa77f3ec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_Damaged_03_Convex 1.asset using Guid(f39faf60d965a094793b21aa77f3ec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe5ff876a7703fc60239f6d659be1a6') in 0.289411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseTall_Damaged_02_Convex.asset
+  artifactKey: Guid(3ff7416d58de22946becae61c6dfa744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseTall_Damaged_02_Convex.asset using Guid(3ff7416d58de22946becae61c6dfa744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6168c763df5aebec1cb9a915e91d12d1') in 0.018843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_01_Convex 1.asset
+  artifactKey: Guid(f801ddd4705efdb4abbe8b6240971b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseGarage_01_Convex 1.asset using Guid(f801ddd4705efdb4abbe8b6240971b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e80d9d5f0cddce905e2388c24a85da') in 0.053990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_01_Convex 1.asset
+  artifactKey: Guid(092d8ec421948af4a8575c9bb9225b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseLarge_Damaged_01_Convex 1.asset using Guid(092d8ec421948af4a8575c9bb9225b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321c66f0f06bdcda48258b4316007379') in 0.052532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_01_Convex.asset
+  artifactKey: Guid(3ad538c93bbe60c4193f4d4b0123e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HouseMedium_Damaged_01_Convex.asset using Guid(3ad538c93bbe60c4193f4d4b0123e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ae3bfe0ed2b29f5adeb3a75c3b8fb7') in 0.024170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_01_Convex.asset
+  artifactKey: Guid(0b285c694c39edd458ea4c02b6c6a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_HospitalBuildingSmall_01_Convex.asset using Guid(0b285c694c39edd458ea4c02b6c6a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c91b37cdb37e3bc3fa67c14a7d5539d') in 0.017345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeBlue_01_Convex 1.asset
+  artifactKey: Guid(91e80da147a89bb468bc3b05fc88f00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_OfficeBlue_01_Convex 1.asset using Guid(91e80da147a89bb468bc3b05fc88f00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de566a97d551023d11dede48a25fda1') in 0.046496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Office_Damaged_02_Convex.asset
+  artifactKey: Guid(504812db1709e5046ae17be462e7ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Models/Buildings/SA_Bld_Office_Damaged_02_Convex.asset using Guid(504812db1709e5046ae17be462e7ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d71e2f032b68d8ab9365e8e569f378c') in 0.020694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.453279 seconds.
+  path: Assets/Models/SimpleApocalypse/Prefabs/FX
+  artifactKey: Guid(71194a6de18d5984a8be751a4656f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SimpleApocalypse/Prefabs/FX using Guid(71194a6de18d5984a8be751a4656f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a36af82526cd4f9ffa93be10cf83351') in 0.003656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.981511 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit
+  artifactKey: Guid(1c2883c24d2ebfa4682b81d42e63bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit using Guid(1c2883c24d2ebfa4682b81d42e63bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb49e8bdb1862ebb7cc6cac9971d7470') in 0.003333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.001943 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs
+  artifactKey: Guid(05914e07ecbc42b4b87d6bc35ff55888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs using Guid(05914e07ecbc42b4b87d6bc35ff55888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3843aca3370fc085098323048f718af3') in 0.004893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056637 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/Sapper_Shovel_01.prefab
+  artifactKey: Guid(804c1865bea50f640a7b9d888ee785be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/Sapper_Shovel_01.prefab using Guid(804c1865bea50f640a7b9d888ee785be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2718e3ebf0946bc31cfc3debc7e77774') in 0.051706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Wood_Open.prefab
+  artifactKey: Guid(65173457bf15b174b90fc24bacbe49a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Wood_Open.prefab using Guid(65173457bf15b174b90fc24bacbe49a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86f4f9cfffe0fced07a20a0b865e795') in 0.024798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Heavy_Machine_Gun.prefab
+  artifactKey: Guid(e71eadb3e5ce67949939c612d019ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Heavy_Machine_Gun.prefab using Guid(e71eadb3e5ce67949939c612d019ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cadd4dfdc9be0a203ed3b48dccd22e') in 0.032377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Forend_With_Picatinny_Rails_5.45.prefab
+  artifactKey: Guid(1a4c19fa2b5cb4443872e6d31ffd1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Forend_With_Picatinny_Rails_5.45.prefab using Guid(1a4c19fa2b5cb4443872e6d31ffd1865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1207599af7d7c9d8f76c9277d69d24') in 0.021263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Molotov_02.prefab
+  artifactKey: Guid(77c64d5f8d0881047bd731180649b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Molotov_02.prefab using Guid(77c64d5f8d0881047bd731180649b002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd3adfd60ff6886124a1f5df3b28dbc') in 0.020111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Horizontal_Handle_01.prefab
+  artifactKey: Guid(0b19c6db87fec3a4cacc737c9a59487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Horizontal_Handle_01.prefab using Guid(0b19c6db87fec3a4cacc737c9a59487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788173ac69918573d916f0b04a518aeb') in 0.020359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_SM_Sight_Bulpam_Assault_Rifle.prefab
+  artifactKey: Guid(e93d11f57b3529c4fbe66f0604817eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_SM_Sight_Bulpam_Assault_Rifle.prefab using Guid(e93d11f57b3529c4fbe66f0604817eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed55d0b95c6caa6d087a0f861edc2c09') in 0.022309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Special_Submachine_Gun_Clean.prefab
+  artifactKey: Guid(187759c9ac7a580459dc7f1e1756692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Special_Submachine_Gun_Clean.prefab using Guid(187759c9ac7a580459dc7f1e1756692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d1bb4d88d96a926396c9e41977b84c') in 0.024181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_04.prefab
+  artifactKey: Guid(5c9ddf07179e6a9488ccb9ebb6c30ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_04.prefab using Guid(5c9ddf07179e6a9488ccb9ebb6c30ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b0c1ca4e1ae697d1eac109a9151efe') in 0.033626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Infantry_Mine.prefab
+  artifactKey: Guid(f474aa8c7e83b3b44aa78f1162eb3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Infantry_Mine.prefab using Guid(f474aa8c7e83b3b44aa78f1162eb3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d84932d1a9917ca755d0728ef9413a3') in 0.022954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Portable_Ammo_Box_01_02.prefab
+  artifactKey: Guid(04a4f3113ba711748ab31917af712c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Portable_Ammo_Box_01_02.prefab using Guid(04a4f3113ba711748ab31917af712c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553ab54c10230a35c58810cc535e602e') in 0.022758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Light_Machine_Gun.prefab
+  artifactKey: Guid(0feb3e0c9123f1b4a8a8145cc0c0aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Light_Machine_Gun.prefab using Guid(0feb3e0c9123f1b4a8a8145cc0c0aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bbb1b1053b0771f3fb0086535164da') in 0.028917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.prefab
+  artifactKey: Guid(f1934d0715948b54d83e420685e0d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.prefab using Guid(f1934d0715948b54d83e420685e0d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b18a4d416fec9165e512b1ac435939') in 0.022320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Large_Closed_2.prefab
+  artifactKey: Guid(63a278838de12484a8366e137fdc14d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Large_Closed_2.prefab using Guid(63a278838de12484a8366e137fdc14d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d71a5187fd9edd2edfafd4fabc7fa5') in 0.026491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_02.prefab
+  artifactKey: Guid(c692c92e50808a94fa4085fd4356bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_02.prefab using Guid(c692c92e50808a94fa4085fd4356bfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643ebb8c3c560fbd4b3337944a88daa3') in 0.024570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_High_Precision_Sniper_Rifle_Empty.prefab
+  artifactKey: Guid(bc6b38dea27ab0043a67291559784385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_High_Precision_Sniper_Rifle_Empty.prefab using Guid(bc6b38dea27ab0043a67291559784385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5d8433446a4ecb8e7356632d83a9b7') in 0.024249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Block.prefab
+  artifactKey: Guid(c90d4b87a9347fd43ad0fb549ee1f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Block.prefab using Guid(c90d4b87a9347fd43ad0fb549ee1f938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93810e0b5c4eb4700a63373fd1b4d87a') in 0.026550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Bayonet_Knife_5.56.prefab
+  artifactKey: Guid(a17e20ec643d4cb438a406cf77cae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Bayonet_Knife_5.56.prefab using Guid(a17e20ec643d4cb438a406cf77cae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bd61e9b1518fa36d3eac4774ff3479') in 0.024119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Pistol_Grip_01_5.56.prefab
+  artifactKey: Guid(415ba54cfdb163547b20abd99f3f6181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Pistol_Grip_01_5.56.prefab using Guid(415ba54cfdb163547b20abd99f3f6181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bd46a18a187475b7310bf6bedaeacf') in 0.031328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Brake_Compensator_01.prefab
+  artifactKey: Guid(be7edd9c916f8a048a7e416e583f354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Brake_Compensator_01.prefab using Guid(be7edd9c916f8a048a7e416e583f354a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6f616babdbfd6f6645c1abd70a58ce') in 0.024716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Assault_Rifle_5,45.prefab
+  artifactKey: Guid(51d4e395835a9cd49b22e0b3b9467096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Assault_Rifle_5,45.prefab using Guid(51d4e395835a9cd49b22e0b3b9467096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d2356730cf35b91494f87a59612aa4') in 0.019233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Brake_Compensator_02.prefab
+  artifactKey: Guid(ac68f7c8941e0814c9359c36ea345448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Brake_Compensator_02.prefab using Guid(ac68f7c8941e0814c9359c36ea345448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5efd382add5a4c84ed78559e4177baf') in 0.028291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_Tactical_Submachine_Gun.prefab
+  artifactKey: Guid(9a86a1959d7e0db448fe99b126c8899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_Tactical_Submachine_Gun.prefab using Guid(9a86a1959d7e0db448fe99b126c8899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209ebaef2d80e568c543c964e8ae8c9f') in 0.024097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Special_Submachine_Gun.prefab
+  artifactKey: Guid(23fb7e71af927fb44af9e9def5f30d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Special_Submachine_Gun.prefab using Guid(23fb7e71af927fb44af9e9def5f30d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656c035eddde84f2f4ff1a1253759056') in 0.025575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_05.prefab
+  artifactKey: Guid(9c62adc352734104da849602a056a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muffler_05.prefab using Guid(9c62adc352734104da849602a056a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c28d3102d42bb948566b27451d1dc9') in 0.025856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Rocket_Launchers_02.prefab
+  artifactKey: Guid(6ab1e31873f3e384c95b5677fddae592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Rocket_Launchers_02.prefab using Guid(6ab1e31873f3e384c95b5677fddae592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c806d2c00ccff786d058c97137f27d3') in 0.023791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_C_Four_01.prefab
+  artifactKey: Guid(b288468dd60f91b43bf1644c2e105a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_C_Four_01.prefab using Guid(b288468dd60f91b43bf1644c2e105a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0057cc70464f6c898bfcd34059c26ec') in 0.026948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Civilian_Pistol.prefab
+  artifactKey: Guid(3ed71643a7480ff4295bd0dd12ea9957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Civilian_Pistol.prefab using Guid(3ed71643a7480ff4295bd0dd12ea9957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42049877f6771235194d59f30a163cc0') in 0.024205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_MagazineFor_Hunting_Pistol_Empty.prefab
+  artifactKey: Guid(d74d0d1f09cacde4ebf091f0d94a7f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_MagazineFor_Hunting_Pistol_Empty.prefab using Guid(d74d0d1f09cacde4ebf091f0d94a7f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f25481956a032f927e8884936a9ec11') in 0.024064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Army_Pistol.prefab
+  artifactKey: Guid(b52a2a857d903434facf521b55ad8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Army_Pistol.prefab using Guid(b52a2a857d903434facf521b55ad8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b29bb3c94889bc86a177c591e04ac8c') in 0.023691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Forend_With_Picatinny_Rails_Prototype.prefab
+  artifactKey: Guid(e5dc6aff0a6c62a4e8119e585f680075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Forend_With_Picatinny_Rails_Prototype.prefab using Guid(e5dc6aff0a6c62a4e8119e585f680075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284d221bd1397568f953f3ccae6660c8') in 0.023211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Assault_Rifle_5.56_Prototype_Clean_02.prefab
+  artifactKey: Guid(669ffd48c60dbb247b75f8fa6899469d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Assault_Rifle_5.56_Prototype_Clean_02.prefab using Guid(669ffd48c60dbb247b75f8fa6899469d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d366de61f3cdc884682a9dd1077d63f') in 0.023804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Molotov_01.prefab
+  artifactKey: Guid(a2e431b8c1ac04043b4a83367ae33f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Molotov_01.prefab using Guid(a2e431b8c1ac04043b4a83367ae33f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bdf260d36f0971f24e010798b1e0a9') in 0.021128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Wood_Closed.prefab
+  artifactKey: Guid(c443d99b51e29f845862c430abc26a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Ammo_Box_Wood_Closed.prefab using Guid(c443d99b51e29f845862c430abc26a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9e4fef0e6cb1516875634555ed2729') in 0.025269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Telescopic_Universal_Butt_01.prefab
+  artifactKey: Guid(b3021a116a4b2724c847a3ec45eb6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Telescopic_Universal_Butt_01.prefab using Guid(b3021a116a4b2724c847a3ec45eb6a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d75391ff5843c5658bf360c4d185af') in 0.021001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Army_Submachine_Gun.prefab
+  artifactKey: Guid(10d552cbd7a2ac940b0fb2337154d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Army_Submachine_Gun.prefab using Guid(10d552cbd7a2ac940b0fb2337154d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290564eda09f6492f643938995c748a4') in 0.023820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Police_Submachine_Gun_Empty.prefab
+  artifactKey: Guid(e3852697474a78043b7bb09c5bc3ff00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Magazine_For_Police_Submachine_Gun_Empty.prefab using Guid(e3852697474a78043b7bb09c5bc3ff00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0fb5c6aa771bdc308064c5a023c890') in 0.018852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Assault_Rifle_5,56_Clean.prefab
+  artifactKey: Guid(15a8d7edafa99d444b32106b821408f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Assault_Rifle_5,56_Clean.prefab using Guid(15a8d7edafa99d444b32106b821408f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c9687ba5cccfa5a32c1fe91af74863') in 0.023438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Table_01_02.prefab
+  artifactKey: Guid(1c4622247c8c1f64b94af62f34dfa101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Gun_Table_01_02.prefab using Guid(1c4622247c8c1f64b94af62f34dfa101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7012cff8a9f88df4d6a464a9707e4c') in 0.021990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Rocket_For_Rocket_Launchers_01.prefab
+  artifactKey: Guid(3dd22bb66785cc64fa0effdaefbcc54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Rocket_For_Rocket_Launchers_01.prefab using Guid(3dd22bb66785cc64fa0effdaefbcc54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c01ead50e9f0f16426f83fb901f842') in 0.021535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Stun_Grenade.prefab
+  artifactKey: Guid(c7188172f0d668f4cb1122ed2f3ce266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Stun_Grenade.prefab using Guid(c7188172f0d668f4cb1122ed2f3ce266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becac2435d185e54882f711760b39acb') in 0.022901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Bipod_ForLarge_Caliber_Sniper_Rifle.prefab
+  artifactKey: Guid(f6fd50c16e2d51a4e9332e0e845dc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Bipod_ForLarge_Caliber_Sniper_Rifle.prefab using Guid(f6fd50c16e2d51a4e9332e0e845dc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50dd75d2122099f46bf2da6f5d0a2ef') in 0.019936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Horizontal_Handle_04.prefab
+  artifactKey: Guid(a8ca6b9bdf2e48e4eb73752e6aa75c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Horizontal_Handle_04.prefab using Guid(a8ca6b9bdf2e48e4eb73752e6aa75c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22eb8dd767c7965af6c1c4d3284d170') in 0.024074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Barrel_attachment_Shotgun.prefab
+  artifactKey: Guid(bbd5f6bd322047640a7c057408177a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Barrel_attachment_Shotgun.prefab using Guid(bbd5f6bd322047640a7c057408177a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b079b297e9ad913492a9891743f3f7') in 0.021923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Flashlight_02.prefab
+  artifactKey: Guid(a5e9bb268f8de4541b7f9db97adf74be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Tactical_Flashlight_02.prefab using Guid(a5e9bb268f8de4541b7f9db97adf74be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10031c274ebfc245b037c781a767f6bd') in 0.020623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Assault_Rifle_5.56_Prototype_Clean_01.prefab
+  artifactKey: Guid(558b570b4d7ff2244af36a3242bbb3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Muzzle_Assault_Rifle_5.56_Prototype_Clean_01.prefab using Guid(558b570b4d7ff2244af36a3242bbb3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a793c4986813d5105ae72c2ebabe56') in 0.017391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.724483 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Weapon_Stand_01.prefab
+  artifactKey: Guid(00b7cbc6c41a3644ba19447842d5ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Weapon_Stand_01.prefab using Guid(00b7cbc6c41a3644ba19447842d5ecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d33a1055d1b6b21f4a8b361ca9349c6') in 0.023799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Weapon_Stand_03_01.prefab
+  artifactKey: Guid(2a53317a4874a114dab1018fa345a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-Mega Weapone Kit/Prefabs/SM_Weapon_Stand_03_01.prefab using Guid(2a53317a4874a114dab1018fa345a93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955ef7d8370b6d9bf05e3e194e98072c') in 0.021918 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
