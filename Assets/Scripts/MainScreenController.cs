@@ -1,13 +1,13 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Mirror;
+using System.Diagnostics;
 
 public class MainScreenController : MonoBehaviour
 {
     NetworkManager networkManager;
-    
+
     public TMP_InputField joinIP, joinPort, hostPort;
     public TextMeshProUGUI joinPortError, hostPortError;
 
@@ -49,6 +49,7 @@ public class MainScreenController : MonoBehaviour
 
     public void QuitGame()
     {
-        Application.Quit();   
+        Application.Quit();
     }
 }
+

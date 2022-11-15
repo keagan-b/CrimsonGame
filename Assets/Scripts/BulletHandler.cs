@@ -10,6 +10,7 @@ public class BulletHandler : NetworkBehaviour
     public float speed = 10f;
     public float duration = 5f;
     float despawnTime;
+    public GameObject spawner;
 
     public float damage = 100f;
 
@@ -46,11 +47,16 @@ public class BulletHandler : NetworkBehaviour
     [Command(requiresAuthority = false)]
     void CmdDoDamage(GameObject enemy, GameObject bullet, float damage)
     {
-        enemy.GetComponent<EnemyController>().health -= damage;
+        EnemyController ec = enemy.GetComponent<EnemyController>();
+        ec.health -= damage;
+        if (ec.health <= 0)
+        {
+            spawner.GetComponent<PlayerController>().gold += (int)Mathf.Ceil(ec.health / 5);
+        }
         Destroy(bullet);
     }
 
-    [Command(requiresAuthority=false)]
+    [Command(requiresAuthority = false)]
     void CmdDestroySelf(GameObject bullet)
     {
         Destroy(bullet);

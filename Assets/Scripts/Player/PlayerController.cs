@@ -25,6 +25,8 @@ public class PlayerController : NetworkBehaviour
     public bool isDead = false;
     [SyncVar]
     public string playerName = "unnamed";
+    [SyncVar]
+    public int gold = 0;
 
     private int spectatorCamera = 0;
 
@@ -153,6 +155,7 @@ public class PlayerController : NetworkBehaviour
         BulletHandler bh = bullet.GetComponent<BulletHandler>();
 
         bh.damage = damage;
+        bh.spawner = gameObject;
         bh.target = new Vector3(hitPoint.x, raycast.y, hitPoint.z);
 
         NetworkServer.Spawn(bullet);

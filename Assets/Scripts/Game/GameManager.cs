@@ -22,6 +22,11 @@ public class GameManager : NetworkBehaviour
     [SyncVar]
     public int round = 1;
 
+    [SyncVar]
+    public bool inRound = true;
+    [SyncVar]
+    public bool inStore = false;
+
     private int remainingSpawns = 1;
     private float spawnSpeed = 1f;
     private float spawnCooldown = 0f;
@@ -29,7 +34,6 @@ public class GameManager : NetworkBehaviour
     public float roundInterval = 5f;
     private float roundCooldown = 0f;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (singleton != this)
@@ -39,7 +43,6 @@ public class GameManager : NetworkBehaviour
         if (!isServer) { return; }
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
@@ -57,7 +60,7 @@ public class GameManager : NetworkBehaviour
             if (!controller.isDead) { allDead = false; break; }
         }
 
-        if (remainingSpawns > 0)
+        if (remainingSpawns > 0 && inRound)
         {
             if (spawnCooldown <= Time.time)
             {
@@ -102,8 +105,15 @@ public class GameManager : NetworkBehaviour
             remainingSpawns = 1;
             roundCooldown = Time.time + roundInterval;
         }
+
+        if (round % 5 == 0)
+        {
+            inRound = false;
+            inStore = true;
+        }
     }
 
+    // spawns zombies
     public void SpawnZombie()
     {
         GameObject zombie = Instantiate(enemyPrefab);
@@ -113,7 +123,7 @@ public class GameManager : NetworkBehaviour
         controller.modelID = Random.Range(0, controller.zombieModels.Length);
         if (round > 1)
         {
-            controller.health = 100 * (float)(round * Random.Range((float)round / 4, (float)round/2));
+            controller.health = (float)(100 * round * 0.025);
         }
 
         zombies.Add(zombie);
@@ -121,6 +131,7 @@ public class GameManager : NetworkBehaviour
         NetworkServer.Spawn(zombie);
     }
 
+    // causes revives
     public void ReviveAll()
     {
         foreach (GameObject player in players)
@@ -129,6 +140,7 @@ public class GameManager : NetworkBehaviour
         }
     }
 
+    // gets an array of all living players
     public GameObject[] GetLivingPlayers()
     {
         List<GameObject> livingPlayers = new List<GameObject>();
@@ -141,5 +153,12 @@ public class GameManager : NetworkBehaviour
         }
 
         return livingPlayers.ToArray();
+    }
+
+    // triggers when majority has voted to end the store phase
+    public void EndStore()
+    {
+        inStore = false;
+        inRound = true;
     }
 }
