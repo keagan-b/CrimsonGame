@@ -7,6 +7,7 @@ using UnityEngine.AI;
 public class EnemyController : NetworkBehaviour
 {
     public GameObject modelParent;
+    public Animator animator;
     public HealthBarController healthBar;
     public NavMeshAgent navAgent;
     public GameObject[] zombieModels;
@@ -21,20 +22,13 @@ public class EnemyController : NetworkBehaviour
     public float attackSpeed = 1f;
 
     private float attackCooldown = 0f;
-    private Animator animator;
 
     private void Start()
     {
-        GameObject model = zombieModels[modelID];
-        model = Instantiate(model, modelParent.transform);
-        model.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
-
-        animator = model.GetComponent<Animator>();
-        NetworkAnimator netAnim = gameObject.AddComponent<NetworkAnimator>();
-        netAnim.animator = animator;
-        netAnim.syncDirection = SyncDirection.ServerToClient;
-
         healthBar.fullHealth = health;
+
+        GameObject model = zombieModels[modelID];
+        model.SetActive(true);
     }
 
     // Update is called once per frame
@@ -47,7 +41,8 @@ public class EnemyController : NetworkBehaviour
         if (health <= 0)
         {
             GameManager.singleton.zombies.Remove(gameObject);
-            Destroy(gameObject);
+            NetworkServer.Destroy(gameObject);
+            return;
         }
 
         // find nearest player
@@ -74,6 +69,7 @@ public class EnemyController : NetworkBehaviour
         }
     }
 
+    // attack system
     private void OnTriggerStay(Collider collision)
     {
         if (!isServer) { return; }

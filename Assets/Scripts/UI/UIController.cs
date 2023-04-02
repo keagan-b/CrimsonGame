@@ -6,17 +6,20 @@ using Mirror;
 
 public class UIController : NetworkBehaviour
 {
-    public TextMeshProUGUI roundText;
-    public TextMeshProUGUI zombiesRemaining;
+    public TextMeshProUGUI roundText, zombiesRemaining, gold;
     public TMP_InputField nameField;
-    public GameObject deathScreen, aliveScreen, pauseScreen;
+    public GameObject deathScreen, aliveScreen, pauseScreen, localPlayer;
 
     public static UIController singleton;
+
+    PlayerController playerController;
     void Start()
     {
         if (singleton != this)
         {
             singleton = this;
+            localPlayer = NetworkClient.localPlayer.gameObject;
+            playerController = localPlayer.GetComponent<PlayerController>();
         }
     }
 
@@ -34,8 +37,8 @@ public class UIController : NetworkBehaviour
 
     public void SetName()
     {
-        Debug.Log("running name set!");
-        CmdSetName(nameField.text.Substring(0, Mathf.Min(nameField.text.Length, 24)), NetworkClient.localPlayer.gameObject);
+        Debug.Log("running set name!");
+        CmdSetName(nameField.text.Substring(0, Mathf.Min(nameField.text.Length, 24)), localPlayer);
     }
 
     [Command(requiresAuthority=false)]
@@ -49,7 +52,8 @@ public class UIController : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        roundText.text = "Round " + GameManager.singleton.round;
+        gold.text = $"{playerController.gold} Gold";
+        roundText.text = "Round " + (GameManager.singleton.round + 1);
         zombiesRemaining.text = GameManager.singleton.zombies.Count + " Left";
 
         if (Input.GetKeyDown(KeyCode.Escape))

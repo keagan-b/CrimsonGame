@@ -1,0 +1,295 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 49081 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\Keagan\Unity\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Keagan/Unity/Projects/CrimsonGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51004
+Successfully changed project path to: C:/Users/Keagan/Unity/Projects/CrimsonGame
+C:/Users/Keagan/Unity/Projects/CrimsonGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 188.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Keagan/Unity/Projects/CrimsonGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
+    Vendor:   NVIDIA
+    VRAM:     12107 MB
+    Driver:   31.0.15.2737
+Initialize mono
+Mono path[0] = 'C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/Keagan/Unity/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016811 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 155.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (450ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.028354 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Keagan\Unity\Projects\CrimsonGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1852ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1424ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (711ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3740 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (111.6 KB). Loaded Objects now: 4194.
+Memory consumption went from 131.8 MB to 131.7 MB.
+Total: 7.605400 ms (FindLiveObjects: 0.639400 ms CreateObjectMapping: 0.227600 ms MarkObjects: 6.457500 ms  DeleteObjects: 0.278800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4123762.934482 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_01_B (1).prefab
+  artifactKey: Guid(8c00553f1e67b614386c26e423e3212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_01_B (1).prefab using Guid(8c00553f1e67b614386c26e423e3212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eddfe1918176a50b9474196c91da95') in 0.252857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_26.prefab
+  artifactKey: Guid(37d932fa6383fd74a80b5224eb9fc602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_26.prefab using Guid(37d932fa6383fd74a80b5224eb9fc602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475f3ff0fd3aacb4cdea4ce9b0ffb67a') in 0.048377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_03_D.prefab
+  artifactKey: Guid(7ac30baaa933c3c41b16ec2649acf609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_03_D.prefab using Guid(7ac30baaa933c3c41b16ec2649acf609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c71212413ed560f0a9f51eadc93d1c') in 0.030530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_08.prefab
+  artifactKey: Guid(06d0d72a897e3a948a87ee5d1c908f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_08.prefab using Guid(06d0d72a897e3a948a87ee5d1c908f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c76e6c9cd63a4399077f8aa09ad1b3') in 0.036760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_06.prefab
+  artifactKey: Guid(dad305b53ab2ca048b1c88750c61a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_06.prefab using Guid(dad305b53ab2ca048b1c88750c61a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8bdd36aa0e23a40d33884bb169a723') in 0.026986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_20_D.prefab
+  artifactKey: Guid(bb88f16d4fed135488b79253a8cea439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_20_D.prefab using Guid(bb88f16d4fed135488b79253a8cea439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df958e004e23e1a7bfa3c30c74a13ea4') in 0.028890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_11_B.prefab
+  artifactKey: Guid(fed2bc16fb71ff745a5e7c6ee4d6dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_11_B.prefab using Guid(fed2bc16fb71ff745a5e7c6ee4d6dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f4a7600c1ad8cd0b9325800f69bb6') in 0.027492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_03_C.prefab
+  artifactKey: Guid(9aa0ebd8df8443945beec4a3806b5cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_03_C.prefab using Guid(9aa0ebd8df8443945beec4a3806b5cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c728df1190a69a9439c7095b7b671e3a') in 0.025395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_21_A.prefab
+  artifactKey: Guid(719356eafb9775546aa0580c191c7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_21_A.prefab using Guid(719356eafb9775546aa0580c191c7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422df47e80891ba5a4dc036e57226722') in 0.026802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_02_A.prefab
+  artifactKey: Guid(d2bae87c65028e44881b68b0b5ffefcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_02_A.prefab using Guid(d2bae87c65028e44881b68b0b5ffefcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92544107291925f1359e176f0f5b77c') in 0.024718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_11_D.prefab
+  artifactKey: Guid(fa8ac86d9c6200e4fbc59d47058a8111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_11_D.prefab using Guid(fa8ac86d9c6200e4fbc59d47058a8111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0d3bc38426d265e95ae7e6f9cd8120') in 0.025349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_10.prefab
+  artifactKey: Guid(ca5fad1fd617e104eaf9b5aed1cc63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_10.prefab using Guid(ca5fad1fd617e104eaf9b5aed1cc63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5280a4513b4d5a7af441b901465d68e4') in 0.025999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_16.prefab
+  artifactKey: Guid(2b5444df86e57204182b043e47e222fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_16.prefab using Guid(2b5444df86e57204182b043e47e222fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ed3a08e0cce3b6c5250d50065fdc4d') in 0.032204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_05 1.prefab
+  artifactKey: Guid(563937e50134c2748bdfcccfbdf69c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_05 1.prefab using Guid(563937e50134c2748bdfcccfbdf69c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f739b0e1282d470afd6398cb15fe72') in 0.027397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_23.prefab
+  artifactKey: Guid(2d064e39dbe894846a7962c168c0f5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_23.prefab using Guid(2d064e39dbe894846a7962c168c0f5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270714e5777fe0b89fa368c1b77ca244') in 0.026368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_02_C.prefab
+  artifactKey: Guid(b27fc1ac7c22f494d808e277a7aa1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_02_C.prefab using Guid(b27fc1ac7c22f494d808e277a7aa1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4c6dd5bdc2cddd38bc999d6f42c019') in 0.025473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_09.prefab
+  artifactKey: Guid(874f81ee8fa12f1458a3c7552f9beb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_09.prefab using Guid(874f81ee8fa12f1458a3c7552f9beb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cd4e57076b313156b2ef4004915a25') in 0.027590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_11_C.prefab
+  artifactKey: Guid(a0ee0a408a1cf87429ac80c1f4ad6ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_11_C.prefab using Guid(a0ee0a408a1cf87429ac80c1f4ad6ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0ad224dcce6090d6bd18f009b6d849') in 0.027125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_20_B.prefab
+  artifactKey: Guid(e041e025a181fb14593cb95a2770e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_20_B.prefab using Guid(e041e025a181fb14593cb95a2770e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b566abfc058bad0ee7e12a526af2520') in 0.024192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_01_C (5).prefab
+  artifactKey: Guid(36d535fa4e2473d4b8dd687910ddd5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_01_C (5).prefab using Guid(36d535fa4e2473d4b8dd687910ddd5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373e59893946ce083aaafc8f4fc5c401') in 0.026305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_07.prefab
+  artifactKey: Guid(ec343878be87a5047b56b2771ca2ca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_07.prefab using Guid(ec343878be87a5047b56b2771ca2ca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a7d9c06bc4a9d0fb242da765bdec77') in 0.029922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_17.prefab
+  artifactKey: Guid(2cec4f033b63bad4a903126702bc0e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Polygon-ForestVillage/Prefabs/Ground/SM_Ground_17.prefab using Guid(2cec4f033b63bad4a903126702bc0e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead6e0a9444f6f25e12c0212bb7a96ed') in 0.025877 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

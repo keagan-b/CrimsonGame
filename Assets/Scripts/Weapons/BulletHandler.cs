@@ -24,6 +24,9 @@ public class BulletHandler : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isServer)
+            return;
+
         if (despawnTime <= Time.time)
         {
             Destroy(gameObject);
@@ -36,29 +39,28 @@ public class BulletHandler : NetworkBehaviour
     {
         if (collision.tag == "Enemy" && isServer)
         {
-            CmdDoDamage(collision.gameObject, gameObject, damage);
+            DoDamage(collision.gameObject, gameObject, damage);
         }
         else if (collision.tag != "Player")
         {
-            CmdDestroySelf(gameObject);
+            DestroySelf(gameObject);
         }
     }
 
-    [Command(requiresAuthority = false)]
-    void CmdDoDamage(GameObject enemy, GameObject bullet, float damage)
+    void DoDamage(GameObject enemy, GameObject bullet, float damage)
     {
         EnemyController ec = enemy.GetComponent<EnemyController>();
         ec.health -= damage;
         if (ec.health <= 0)
         {
-            spawner.GetComponent<PlayerController>().gold += (int)Mathf.Ceil(ec.health / 5);
+            int level = (int)Mathf.Ceil(ec.damage / 5);
+            spawner.GetComponent<PlayerController>().gold += Mathf.Abs(Random.Range(level - 2, level + 2));
         }
-        Destroy(bullet);
+        NetworkServer.Destroy(bullet);
     }
 
-    [Command(requiresAuthority = false)]
-    void CmdDestroySelf(GameObject bullet)
+    void DestroySelf(GameObject bullet)
     {
-        Destroy(bullet);
+        NetworkServer.Destroy(bullet);
     }
 }

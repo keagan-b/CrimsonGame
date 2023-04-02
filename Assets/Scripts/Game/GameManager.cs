@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
+using System;
+using System.ComponentModel;
 
 public class GameManager : NetworkBehaviour
 {
     [HideInInspector]
     public static GameManager singleton;
 
+    [Header("Object Tracking")]
     public GameObject enemyPrefab;
 
     public GameObject[] players;
@@ -21,12 +24,20 @@ public class GameManager : NetworkBehaviour
 
     [SyncVar]
     public int round = 1;
-
     [SyncVar]
     public bool inRound = true;
-    [SyncVar]
-    public bool inStore = false;
+    public GameObject gameUI;
 
+    [Space]
+    [Header("Store Information")]
+    [SyncVar]
+    public bool isInStore = false;
+    public StoreHandler storeHandler;
+    
+    public GameObject storeUI;
+
+    [Space]
+    [Header("Game Options")]
     private int remainingSpawns = 1;
     private float spawnSpeed = 1f;
     private float spawnCooldown = 0f;
@@ -34,6 +45,7 @@ public class GameManager : NetworkBehaviour
     public float roundInterval = 5f;
     private float roundCooldown = 0f;
 
+    // set singleton
     void Start()
     {
         if (singleton != this)
@@ -45,13 +57,15 @@ public class GameManager : NetworkBehaviour
 
     void FixedUpdate()
     {
-        players = GameObject.FindGameObjectsWithTag("Player");
-        livingPlayers = GetLivingPlayers();
-
         if (roundCooldown >= Time.time || !isServer)
         {
             return;
         }
+
+        players = GameObject.FindGameObjectsWithTag("Player");
+        livingPlayers = GetLivingPlayers();
+
+        if (isInStore) { return; }
 
         bool allDead = true;
         foreach (GameObject player in players)
@@ -82,14 +96,14 @@ public class GameManager : NetworkBehaviour
     }
 
     // handle round resets
-    public void RoundEnd(bool playerWin)
+    public void RoundEnd(bool wasPlayerWin)
     {
-        if (playerWin)
+        if (wasPlayerWin)
         {
             ReviveAll();
             round++;
             roundCooldown = Time.time + roundInterval;
-            remainingSpawns = (int)Mathf.Ceil(Random.Range(1f, 2.5f) * round);
+            remainingSpawns = (int)Mathf.Ceil(UnityEngine.Random.Range(1f, 2.5f) * round);
         }
         else
         {
@@ -106,10 +120,13 @@ public class GameManager : NetworkBehaviour
             roundCooldown = Time.time + roundInterval;
         }
 
-        if (round % 5 == 0)
+        // starts the shop
+        if (round % 2 == 0)
         {
             inRound = false;
-            inStore = true;
+            isInStore = true;
+            storeHandler.RpcGenerateWeapons();
+            RpcSetStoreCamera(true);
         }
     }
 
@@ -117,10 +134,10 @@ public class GameManager : NetworkBehaviour
     public void SpawnZombie()
     {
         GameObject zombie = Instantiate(enemyPrefab);
-        zombie.transform.position = zombieSpawners[Random.Range(0, zombieSpawners.Length)].transform.position;
+        zombie.transform.position = zombieSpawners[UnityEngine.Random.Range(0, zombieSpawners.Length)].transform.position;
         EnemyController controller = zombie.GetComponent<EnemyController>();
 
-        controller.modelID = Random.Range(0, controller.zombieModels.Length);
+        controller.modelID = UnityEngine.Random.Range(0, controller.zombieModels.Length);
         if (round > 1)
         {
             controller.health = (float)(100 * round * 0.025);
@@ -158,7 +175,28 @@ public class GameManager : NetworkBehaviour
     // triggers when majority has voted to end the store phase
     public void EndStore()
     {
-        inStore = false;
+        isInStore = false;
         inRound = true;
+        RpcSetStoreCamera(false);
+    }
+
+    [ClientRpc]
+    public void RpcSetStoreCamera(bool state)
+    {
+        //storeHandler.storeCam.enabled = state;
+        if (state) {
+
+            PlayerController pc = NetworkClient.localPlayer.GetComponent<PlayerController>();
+            pc.playerCam.transform.position = storeHandler.storeCamLocation.transform.position;
+            pc.playerCam.transform.rotation = storeHandler.storeCamLocation.transform.rotation;
+        }
+        else
+        {
+            PlayerController pc = NetworkClient.localPlayer.GetComponent<PlayerController>();
+            pc.playerCam.transform.position = pc.playerCamLocation.transform.position;
+            pc.playerCam.transform.rotation = pc.playerCamLocation.transform.rotation;
+        }
+        gameUI.SetActive(!state);
+        storeUI.SetActive(state);
     }
 }

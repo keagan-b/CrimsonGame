@@ -8,17 +8,26 @@ public class PlayerController : NetworkBehaviour
 {
     public Camera playerCam;
     public CharacterController characterController;
-    public GameObject modelParent;
-    public GameObject characterModel;
-    public GameObject raycastPoint;
-    public GameObject bulletPrefab;
     public TextMeshPro nametag;
     public HealthBarController healthBar;
+
+    [Space]
+    [Header("Model Info")]
+    public GameObject modelParent;
+    public GameObject characterModel;
+    public GameObject playerCamLocation;
+
+    [Space]
+    [Header("Bullet Info")]
+    public GameObject raycastPoint;
+    public GameObject bulletPrefab;
 
     public float speed = 1f;
 
     private Animator characterAnimator;
 
+    [Space]
+    [Header("Character Info")]
     [SyncVar]
     public float health = 100f;
     [SyncVar]
@@ -30,8 +39,9 @@ public class PlayerController : NetworkBehaviour
 
     private int spectatorCamera = 0;
 
-    public float damage = 100f;
-    public float attackSpeed = 0.3f;
+    [Space]
+    [Header("Weapon Info")]
+    public WeaponObj weaponObj;
     private float attackCooldown = 0f;
 
     void Start()
@@ -40,6 +50,8 @@ public class PlayerController : NetworkBehaviour
 
         characterAnimator = characterModel.GetComponent<Animator>();
         healthBar.fullHealth = health;
+        // ADD MODEL SHOWING UP HERE
+        weaponObj = GameManager.singleton.storeHandler.weaponDB.WeaponByID(0);
     }
 
     void FixedUpdate()
@@ -85,40 +97,44 @@ public class PlayerController : NetworkBehaviour
             return;
         }
 
-        // movement handler
-        float h = Input.GetAxisRaw("Horizontal");
-        float v = Input.GetAxisRaw("Vertical");
-
-        // animation controls
-        if ((h != 0 || v != 0) && characterAnimator != null)
+        // ignore movement/attacking if we are in the store
+        if (!GameManager.singleton.isInStore)
         {
-            CmdWalkAnimation();
-        }
-        else if (characterAnimator != null)
-        {
-            CmdIdleAnimation();
-        }
+            // movement handler
+            float h = Input.GetAxisRaw("Horizontal");
+            float v = Input.GetAxisRaw("Vertical");
 
-        characterController.Move(new Vector3((h * speed), 0, (v * speed)));
-
-
-        // rotation handler (faces mouse cursor)
-        Vector3 mousePos = Input.mousePosition;
-        Ray ray = playerCam.ScreenPointToRay(mousePos);
-
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
-        {
-            modelParent.transform.LookAt(new Vector3(hit.point.x, modelParent.transform.position.y, hit.point.z));
-        }
-
-        // attack handler
-        if (Input.GetMouseButton(0))
-        {
-            if (attackCooldown <= Time.time)
+            // animation controls
+            if ((h != 0 || v != 0) && characterAnimator != null)
             {
-                CmdSpawnBullet(hit.point, raycastPoint.transform.position, damage);
-                attackCooldown = Time.time + attackSpeed;
+                CmdWalkAnimation();
+            }
+            else if (characterAnimator != null)
+            {
+                CmdIdleAnimation();
+            }
+
+            characterController.Move(new Vector3((h * speed), 0, (v * speed)));
+
+
+            // rotation handler (faces mouse cursor)
+            Vector3 mousePos = Input.mousePosition;
+            Ray ray = playerCam.ScreenPointToRay(mousePos);
+
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                modelParent.transform.LookAt(new Vector3(hit.point.x, modelParent.transform.position.y, hit.point.z));
+            }
+
+            // attack handler
+            if (Input.GetMouseButton(0))
+            {
+                if (attackCooldown <= Time.time)
+                {
+                    CmdSpawnBullet(hit.point, raycastPoint.transform.position, weaponObj.weapon.damage);
+                    attackCooldown = Time.time + weaponObj.weapon.fireRate;
+                }
             }
         }
     }
